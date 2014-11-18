@@ -20,6 +20,5 @@ class FetcherTest < Minitest::Test
     assert_equal "Kaleo Software: Senior Software Engineer", sample.title
     assert sample.description.include?("looking for a Senior Software Engineer")
     assert_equal "https://weworkremotely.com/jobs/1080", sample.source_url
-
   end
 end

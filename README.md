@@ -1,6 +1,6 @@
 # Jobs::Remotely
 
-TODO: Write a gem description
+This library makes it easy to pull job listings from WeWorkRemotely.com
 
 ## Installation
 
@@ -12,13 +12,18 @@ And then execute:
 
     $ bundle
 
-Or install it yourself as:
-
-    $ gem install jobs-remotely
-
 ## Usage
 
-TODO: Write usage instructions here
+### Parsing RSS from a File
+
+```
+> require 'jobs-remotely'
+true
+> fetcher = Jobs::Remotely::Fetcher.new
+#<Jobs::Remotely::Fetcher ...>
+> fetcher.fetch_file('./test/fixtures/jobs.rss')
+[#<Jobs::Remotely::Job ...>, #<Jobs::Remotely::Job ...>]
+```
 
 ## Contributing
 

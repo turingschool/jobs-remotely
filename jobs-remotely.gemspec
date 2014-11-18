@@ -8,9 +8,9 @@ Gem::Specification.new do |spec|
   spec.version       = Jobs::Remotely::VERSION
   spec.authors       = ["Jeff Casimir"]
   spec.email         = ["jeff@casimircreative.com"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
-  spec.homepage      = ""
+  spec.summary       = "A small gem to easily fetch jobs from WeWorkRemotely.com"
+  spec.description   = "A small gem to easily fetch jobs from WeWorkRemotely.com"
+  spec.homepage      = "https://github.com/turingschool/jobs-remotely"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")

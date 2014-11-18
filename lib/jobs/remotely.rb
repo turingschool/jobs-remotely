@@ -1,7 +1,8 @@
 require "jobs/remotely/version"
+require 'jobs/remotely/fetcher'
 
 module Jobs
   module Remotely
-    # Your code goes here...
+
   end
 end
