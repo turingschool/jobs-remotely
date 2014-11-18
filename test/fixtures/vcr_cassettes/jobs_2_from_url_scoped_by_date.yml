@@ -1,0 +1,1367 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://weworkremotely.com/categories/2/jobs.rss
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Tue, 18 Nov 2014 04:29:37 GMT
+      Content-Type:
+      - application/rss+xml; charset=utf-8
+      Content-Length:
+      - '120755'
+      Connection:
+      - keep-alive
+      Status:
+      - 200 OK
+      X-Request-Id:
+      - 28b079c9aa0cdca89997b23da20485f5
+      Etag:
+      - '"6348aeec921d066a8ba6e6057a5c53d6"'
+      X-Rack-Cache:
+      - miss
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Runtime:
+      - '45'
+      Cache-Control:
+      - private, max-age=0, must-revalidate
+      Timing-Allow-Origin:
+      - "*"
+    body:
+      encoding: UTF-8
+      string: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<rss xmlns:dc=\"http://purl.org/dc/elements/1.1/\"
+        version=\"2.0\">\n  <channel>\n    <title>Recent Programming Jobs</title>\n
+        \   <link>https://weworkremotely.com/categories/2/jobs.rss</link>\n    <description>Recent
+        Jobs posted to the Programming category on We Work Remotely</description>\n
+        \   <language>en-US</language>\n    <ttl>60</ttl>\n    <item>\n      <title>Kaleo
+        Software: Senior Software Engineer</title>\n      <description>&lt;img alt=&quot;Resized_logo&quot;
+        src=&quot;https://dge9rmgqjs8m1.cloudfront.net/wwr_s3/logos/0000/1702/logo.gif/resized_logo.png?r=3&quot;
+        /&gt;\n\n&lt;p&gt;\n  &lt;strong&gt;Location:&lt;/strong&gt; Los Angeles,
+        CA\n    &lt;br /&gt;&lt;strong&gt;URL:&lt;/strong&gt; &lt;a href=&quot;http://www.kaleosoftware.com/&quot;&gt;http://www.kaleosoftware.com/&lt;/a&gt;\n&lt;/p&gt;\n\n&lt;div&gt;Hi
+        there! We (Kaleo) are looking for a Senior Software Engineer.&lt;/div&gt;&lt;div
+        class=&quot;paragraph_break&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;Guess
+        What? That developer could be you!&lt;/div&gt;&lt;div class=&quot;paragraph_break&quot;&gt;&lt;br
+        /&gt;&lt;/div&gt;&lt;div&gt;If you&#8217;ve ever wanted to work for a high-performance
+        startup that&#8217;s building next-generation software for large enterprises,&amp;nbsp;this
+        could be your dream job!&lt;/div&gt;&lt;div class=&quot;paragraph_break&quot;&gt;&lt;br
+        /&gt;&lt;/div&gt;&lt;div&gt;We Want People That&lt;br /&gt;&lt;/div&gt;&lt;div&gt;Want
+        to build software that enhances the productivity of peoples&#8217; day-to-day
+        lives while empowering a company to become more competitive. If you have solid
+        work ethic, a strong level of curiosity and the need for speed then we want
+        to hear from you. You&#8217;re an experienced Ruby/Rails developer, comfortable
+        with the web stack.&lt;/div&gt;&lt;div class=&quot;paragraph_break&quot;&gt;&lt;br
+        /&gt;&lt;/div&gt;&lt;div&gt;Expert Level:&lt;br /&gt;&lt;/div&gt;&lt;ul&gt;&lt;li&gt;Ruby/Rails
+        4+&lt;/li&gt;&lt;li&gt;Elasticsearch&lt;/li&gt;&lt;li&gt;PostgreSQL&lt;/li&gt;&lt;/ul&gt;&lt;div
+        class=&quot;paragraph_break&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;Competent:&lt;br
+        /&gt;&lt;/div&gt;&lt;ul&gt;&lt;li&gt;HTML/Haml/JavaScript/jQuery&lt;/li&gt;&lt;/ul&gt;&lt;div
+        class=&quot;paragraph_break&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;Want
+        to Learn or Develop Your Skills In:&lt;br /&gt;&lt;/div&gt;&lt;ul&gt;&lt;li&gt;JRuby
+        (Torquebox/vert.x/Jubilee)&lt;/li&gt;&lt;li&gt;ReactJS&lt;/li&gt;&lt;li&gt;CoffeeScript&lt;/li&gt;&lt;li&gt;ClojureScript&lt;/li&gt;&lt;/ul&gt;&lt;div
+        class=&quot;paragraph_break&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;A
+        Day in the Life&lt;br /&gt;&lt;/div&gt;&lt;div&gt;So, what exactly would you
+        be doing were you to join our small, mighty and growing team? Well, even though
+        we are building &#8220;Enterprise Software&#8221;, you can kiss those&amp;nbsp;TPS&amp;nbsp;reports
+        goodbye. We follow the Goldilocks development methodology: &#8220;Just enough&#8221;
+        process to make sure we are working well as a team.&lt;/div&gt;&lt;div class=&quot;paragraph_break&quot;&gt;&lt;br
+        /&gt;&lt;/div&gt;&lt;div&gt;One day you might be hacking out some proof-of-concept
+        for a new feature, and getting real-world feedback on usability, or performance.&lt;/div&gt;&lt;div
+        class=&quot;paragraph_break&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;Another
+        day you might not write code at all but instead spend time thinking deeply
+        about a complicated problem, and designing potential solutions.&lt;/div&gt;&lt;div
+        class=&quot;paragraph_break&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;Most
+        days, you will be writing new, production-quality code (and tests) that implement
+        innovative new features to our product set.&lt;/div&gt;&lt;div class=&quot;paragraph_break&quot;&gt;&lt;br
+        /&gt;&lt;/div&gt;&lt;div&gt;Every day, you should feel challenged and empowered
+        to do the best work of your life.&lt;/div&gt;&lt;div class=&quot;paragraph_break&quot;&gt;&lt;br
+        /&gt;&lt;/div&gt;&lt;div&gt;What Does Kaleo Do?&lt;br /&gt;&lt;/div&gt;&lt;div&gt;Imagine
+        a working environment where you&#8217;re never lost. It&#8217;s a world where
+        the answers to your questions are at your fingertips and you don&#8217;t spend
+        hours digging through outdated wikis and company intranets. Here at Kaleo
+        we are building next-generation software to facilitate rapid business process
+        improvement by empowering employees and executive management of some of the
+        largest companies in the world.&lt;/div&gt;&lt;div class=&quot;paragraph_break&quot;&gt;&lt;br
+        /&gt;&lt;/div&gt;&lt;div&gt;Ok, But Will I Actually Like Working at Kaleo?&lt;br
+        /&gt;&lt;/div&gt;&lt;div&gt;We think so. If you like tackling difficult problems
+        and working with smart people, you&#8217;ll feel right at home here. On top
+        of that, we work hard to make sure the company culture is strong and welcoming,
+        and that the work arrangements are flexible enough to work for you.&lt;/div&gt;&lt;div
+        class=&quot;paragraph_break&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;Things
+        We All Enjoy at Kaleo!&lt;br /&gt;&lt;/div&gt;&lt;ul&gt;&lt;li&gt;Competitive
+        Compensation and Equity: We value our team members and will offer you meaningful
+        compensation for your contributions.&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;Great
+        health, dental, &amp;amp; vision insurance: We care about your pearly whites.&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;Unlimited&amp;nbsp;PTO:
+        We trust you to get things done and take the time you need to recharge.&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;Flexible
+        working arrangements: Partial or full-time remote opportunities available
+        for the right candidate.&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;New hardware
+        to get the job done.&lt;/li&gt;&lt;li&gt;Daily meditation breaks: Come get
+        your &#8216;zen&#8217; on with us.&lt;/li&gt;&lt;li&gt;Fun and entertainment:
+        Beer O&#8217;Clock Fridays and quarterly company outings to Las Vegas and
+        San Diego, plus we have a stocked kitchen with tons of healthy snacks.&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;Location:
+        We&#8217;re just a few miles from Manhattan Beach. Surf&#8217;s up!&lt;/li&gt;&lt;/ul&gt;&lt;div
+        class=&quot;paragraph_break&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;Compensation&lt;br
+        /&gt;&lt;/div&gt;&lt;div&gt;Cash comp paired with equity &#8212;we are looking
+        for the best and will pay them accordingly. Health coverage, dental, and vision
+        benefits. The opportunity for growth in a fast-paced progressive company is
+        yours for the taking.&lt;/div&gt;&lt;div class=&quot;paragraph_break&quot;&gt;&lt;br
+        /&gt;&lt;/div&gt;&lt;div&gt;Learn more @:&amp;nbsp;&lt;a href=&quot;http://bit.ly/kaleo-job-eng&quot;&gt;http://bit.ly/kaleo-job-eng&lt;/a&gt;&lt;/div&gt;&lt;div
+        class=&quot;paragraph_break&quot;&gt;&lt;br /&gt;&lt;/div&gt;\n\n\n&lt;p&gt;&lt;strong&gt;To
+        apply:&lt;/strong&gt; Please send a resume to &lt;a href=&quot;&amp;#109;&amp;#97;&amp;#105;&amp;#108;&amp;#116;&amp;#111;&amp;#58;%6a%6f%62%73@%6b%61%6c%65%6f%73%6f%66%74%77%61%72%65.%63%6f%6d&quot;&gt;jobs@kaleosoftware.com&lt;/a&gt;
+        with the job title in the subject line.  &lt;/p&gt;\n</description>\n      <pubDate>Mon,
+        17 Nov 2014 05:45:32 +0000</pubDate>\n      <guid>https://weworkremotely.com/jobs/1080</guid>\n
+        \     <link>https://weworkremotely.com/jobs/1080</link>\n    </item>\n    <item>\n
+        \     <title>DataStax: Cassandra Internals Engineer</title>\n      <description>&lt;img
+        alt=&quot;Resized_logo&quot; src=&quot;https://dge9rmgqjs8m1.cloudfront.net/wwr_s3/logos/0000/1700/logo.gif/resized_logo.png?r=3&quot;
+        /&gt;\n\n&lt;p&gt;\n  &lt;strong&gt;Location:&lt;/strong&gt; Santa Clara,
+        Ca\n    &lt;br /&gt;&lt;strong&gt;URL:&lt;/strong&gt; &lt;a href=&quot;http://www.datastax.com&quot;&gt;www.datastax.com&lt;/a&gt;\n&lt;/p&gt;\n\n&lt;div&gt;Cassandra
+        Internals Engineer&lt;/div&gt;&lt;div&gt;Apache Cassandra is the&amp;nbsp;&lt;a
+        href=&quot;http://planetcassandra.org/companies/&quot;&gt;world's leading
+        distributed database&lt;/a&gt;. &amp;nbsp;A Cassandra cluster can&amp;nbsp;&lt;a
+        href=&quot;http://techblog.netflix.com/2011/11/benchmarking-cassandra-scalability-on.html&quot;&gt;scale&amp;nbsp;linearly&lt;/a&gt;&amp;nbsp;from
+        a handful to hundreds of machines across&amp;nbsp;&lt;a href=&quot;http://www.datastax.com/dev/blog/deploying-cassandra-across-multiple-data-centers&quot;&gt;multiple&amp;nbsp;datacenters&lt;/a&gt;,
+        without compromising&amp;nbsp;&lt;a href=&quot;http://planetcassandra.org/nosql-performance-benchmarks/#EndPoint&quot;&gt;per-node
+        performance&lt;/a&gt;.&lt;/div&gt;&lt;div class=&quot;paragraph_break&quot;&gt;&lt;br
+        /&gt;&lt;/div&gt;&lt;div&gt;DataStax is looking for an engineer to help take
+        Cassandra to the next level. &amp;nbsp;At DataStax you will work closely with
+        Apache Cassandra project chair Jonathan Ellis and many&amp;nbsp;&lt;a href=&quot;http://wiki.apache.org/cassandra/Committers&quot;&gt;committers&lt;/a&gt;&amp;nbsp;both
+        at DataStax and in the broader community from all over the world.&lt;/div&gt;&lt;div
+        class=&quot;paragraph_break&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;DataStax
+        is a place where you can make a meaningful difference as an individual contributor
+        in a quickly-growing team. &amp;nbsp;Our executives meet regularly with the
+        entire company to discuss strategy, successes, and challenges. &amp;nbsp;New
+        features and products can and have evolved out of a &quot;weekend hack.&quot;
+        &amp;nbsp;There is no bureaucracy for the sake of bureaucracy.&lt;/div&gt;&lt;div
+        class=&quot;paragraph_break&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;Job
+        Summary&lt;/div&gt;&lt;ul&gt;&lt;li&gt;Work with the community to design,
+        implement and review features for Apache Cassandra, with a focus on those
+        conferring performance advantages&lt;/li&gt;&lt;li&gt;Troubleshoot bug reports
+        from internal QA, from customers, and the Apache community&lt;/li&gt;&lt;li&gt;Eventually
+        achieve committer status on Apache Cassandra&lt;/li&gt;&lt;li&gt;Explain the
+        Cassandra family of technologies to the world through&amp;nbsp;&lt;a href=&quot;http://www.datastax.com/dev/blog&quot;&gt;blog
+        posts&lt;/a&gt;and&amp;nbsp;&lt;a href=&quot;http://planetcassandra.org/blog/post/slideshare-presentations-cassandra-summit-2013/&quot;&gt;conference
+        presentations&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;Job Requirements&lt;/div&gt;&lt;ul&gt;&lt;li&gt;Strong
+        Java background in systems or back-end software&lt;/li&gt;&lt;li&gt;Experience
+        designing multi-threaded systems and algorithms&lt;/li&gt;&lt;li&gt;Knowledge
+        of common data structures, algorithms and architectures, and the ability to
+        apply this knowledge practically&lt;/li&gt;&lt;li&gt;Good written communication
+        skills: comfortable with a distributed team interacting primarily over email,
+        IRC, and our bug tracker&lt;/li&gt;&lt;li&gt;Comfortable reading, reviewing,
+        and modifying others' code&lt;/li&gt;&lt;li&gt;Strong troubleshooting skills&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;Nice
+        to have&lt;/div&gt;&lt;ul&gt;&lt;li&gt;Experience with scalable systems design
+        and implementation&lt;/li&gt;&lt;li&gt;Comfortable reasoning about algorithmic
+        complexity&lt;/li&gt;&lt;li&gt;Comfortable researching specialised data structures
+        and algorithms&lt;/li&gt;&lt;li&gt;Involvement in an open-source community&lt;/li&gt;&lt;li&gt;BS
+        degree in Computer Science or equivilant&lt;/li&gt;&lt;/ul&gt;\n\n\n&lt;p&gt;&lt;strong&gt;To
+        apply:&lt;/strong&gt; Apply Here: &lt;a href=&quot;https://hire.jobvite.com/j?aj=o18RZfwJ&amp;amp;s=weworkremotely&quot;&gt;https://hire.jobvite.com/j?aj=o18RZfwJ&amp;amp;s=weworkremotely&lt;/a&gt;\n&lt;/p&gt;\n</description>\n
+        \     <pubDate>Fri, 14 Nov 2014 23:07:01 +0000</pubDate>\n      <guid>https://weworkremotely.com/jobs/1079</guid>\n
+        \     <link>https://weworkremotely.com/jobs/1079</link>\n    </item>\n    <item>\n
+        \     <title>DataStax: Software Engineer (Tools)</title>\n      <description>&lt;img
+        alt=&quot;Resized_logo&quot; src=&quot;https://dge9rmgqjs8m1.cloudfront.net/wwr_s3/logos/0000/1699/logo.gif/resized_logo.png?r=3&quot;
+        /&gt;\n\n&lt;p&gt;\n  &lt;strong&gt;Location:&lt;/strong&gt; Santa Clara,
+        Ca\n    &lt;br /&gt;&lt;strong&gt;URL:&lt;/strong&gt; &lt;a href=&quot;http://www.datastax.com&quot;&gt;www.datastax.com&lt;/a&gt;\n&lt;/p&gt;\n\n&lt;div&gt;DataStax,
+        the leading distributed database management system that brings Apache Cassandra
+        to the enterprise,&amp;nbsp;is looking for a talented Engineer to work on
+        our developer tools, a toolset developers use to interact with Cassandra and
+        DataStax Enterprise clusters. This position will be located anywhere in the
+        US.&lt;/div&gt;&lt;div&gt;Essential Job Functions&lt;/div&gt;&lt;div class=&quot;paragraph_break&quot;&gt;&lt;br
+        /&gt;&lt;/div&gt;&lt;div&gt;&lt;em&gt;The cool stuff you&#8217;ll do&lt;/em&gt;&lt;/div&gt;&lt;div
+        class=&quot;paragraph_break&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;&#183;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Create
+        and update high productivity tools that developers working with Cassandra
+        will use daily&lt;/div&gt;&lt;div class=&quot;paragraph_break&quot;&gt;&lt;br
+        /&gt;&lt;/div&gt;&lt;div&gt;&#183;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Troubleshoot
+        bug reports from internal QA, from customers, and from the Apache community&lt;/div&gt;&lt;div
+        class=&quot;paragraph_break&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;&#183;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Help
+        developers become more familiar with our tools through blog posts or discussions
+        at community events&lt;/div&gt;&lt;div class=&quot;paragraph_break&quot;&gt;&lt;br
+        /&gt;&lt;/div&gt;&lt;div&gt;Job Requirements&lt;/div&gt;&lt;div class=&quot;paragraph_break&quot;&gt;&lt;br
+        /&gt;&lt;/div&gt;&lt;div&gt;&lt;em&gt;The stuff you&#8217;ll need to succeed&lt;/em&gt;&lt;/div&gt;&lt;div
+        class=&quot;paragraph_break&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;&#183;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Strong
+        Java background in systems or back-end software&lt;/div&gt;&lt;div class=&quot;paragraph_break&quot;&gt;&lt;br
+        /&gt;&lt;/div&gt;&lt;div&gt;&#183;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Familiar
+        with popular tools and frameworks used in the enterprise Java space&lt;/div&gt;&lt;div
+        class=&quot;paragraph_break&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;&#183;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Comfortable
+        working with a team either locally or distributed&lt;/div&gt;&lt;div class=&quot;paragraph_break&quot;&gt;&lt;br
+        /&gt;&lt;/div&gt;&lt;div&gt;&#183;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;BS
+        degree in Computer Science&lt;/div&gt;&lt;div class=&quot;paragraph_break&quot;&gt;&lt;br
+        /&gt;&lt;/div&gt;&lt;div&gt;&#183;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Candidates
+        can be located anywhere&lt;/div&gt;&lt;div class=&quot;paragraph_break&quot;&gt;&lt;br
+        /&gt;&lt;/div&gt;&lt;div&gt;&lt;em&gt;The stuff that would be nice to have
+        (but not a deal breaker)&lt;/em&gt;&lt;/div&gt;&lt;div class=&quot;paragraph_break&quot;&gt;&lt;br
+        /&gt;&lt;/div&gt;&lt;div&gt;&#183;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Familiarity
+        with other languages such as Python or Ruby&lt;/div&gt;&lt;div class=&quot;paragraph_break&quot;&gt;&lt;br
+        /&gt;&lt;/div&gt;&lt;div&gt;&#183;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Experience
+        designing multi-threaded systems&lt;/div&gt;&lt;div class=&quot;paragraph_break&quot;&gt;&lt;br
+        /&gt;&lt;/div&gt;&lt;div&gt;&#183;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Experience
+        with Apache Cassandra or Hadoop&lt;/div&gt;&lt;div class=&quot;paragraph_break&quot;&gt;&lt;br
+        /&gt;&lt;/div&gt;&lt;div&gt;&#183;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Experience
+        with git source control&lt;/div&gt;&lt;div class=&quot;paragraph_break&quot;&gt;&lt;br
+        /&gt;&lt;/div&gt;\n\n\n&lt;p&gt;&lt;strong&gt;To apply:&lt;/strong&gt; Apply
+        Here: &lt;a href=&quot;https://hire.jobvite.com/j?cj=owSBZfwI&amp;amp;s=weworkremotely&quot;&gt;https://hire.jobvite.com/j?cj=owSBZfwI&amp;amp;s=weworkremotely&lt;/a&gt;&lt;/p&gt;\n</description>\n
+        \     <pubDate>Fri, 14 Nov 2014 22:59:33 +0000</pubDate>\n      <guid>https://weworkremotely.com/jobs/1078</guid>\n
+        \     <link>https://weworkremotely.com/jobs/1078</link>\n    </item>\n    <item>\n
+        \     <title>DataStax: Software Architect (DSE Team)</title>\n      <description>&lt;img
+        alt=&quot;Resized_logo&quot; src=&quot;https://dge9rmgqjs8m1.cloudfront.net/wwr_s3/logos/0000/1698/logo.gif/resized_logo.png?r=3&quot;
+        /&gt;\n\n&lt;p&gt;\n  &lt;strong&gt;Location:&lt;/strong&gt; Santa Clara,
+        Ca\n    &lt;br /&gt;&lt;strong&gt;URL:&lt;/strong&gt; &lt;a href=&quot;http://www.datastax.com&quot;&gt;www.datastax.com&lt;/a&gt;\n&lt;/p&gt;\n\n&lt;div&gt;DataStax
+        is looking for a talented software architect with expertise building high-performance,
+        distributed systems to join our team in creating a distributed, scalable NoSQL
+        data management platform. DataStax Enterprise Server, based on Apache Cassandra,
+        allows you to easily run analytics and search on your real time data.&lt;/div&gt;&lt;div
+        class=&quot;paragraph_break&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;div class=&quot;paragraph_break&quot;&gt;&lt;br
+        /&gt;&lt;/div&gt;&lt;div&gt;Primary responsibilities include:&lt;br /&gt;&lt;/div&gt;&lt;ul&gt;&lt;li&gt;Responsible
+        for the high level design of entire products, working with multiple development
+        teams and other architects&lt;/li&gt;&lt;li&gt;Create software design specs
+        from high level requirements&lt;/li&gt;&lt;li&gt;Be an evangelist for the
+        product both internally and externally&lt;/li&gt;&lt;li&gt;Build prototypes,
+        frameworks, and modules&lt;/li&gt;&lt;li&gt;Help support with escalations
+        as needed&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;QualificationsThe stuff you'll need
+        to succeed:&lt;/div&gt;&lt;ul&gt;&lt;li&gt;CS Degree plus 7+ years experience&lt;/li&gt;&lt;li&gt;Thrives
+        in startup company culture&lt;/li&gt;&lt;li&gt;Experience building and designing
+        Java backend servers for enterprise software&lt;/li&gt;&lt;li&gt;Cassandra,
+        Spark, Hadoop, Solr or similar experience&lt;/li&gt;&lt;li&gt;Experience with
+        distributed systems or databases&lt;/li&gt;&lt;li&gt;Able and willing to write
+        tech articles and/or blog posts&lt;/li&gt;&lt;li&gt;Experience in an environment
+        where the software was the product&lt;/li&gt;&lt;li&gt;An understanding of
+        security (LDAP, Kerberos, Encryption, etc..) is highly desirable&lt;/li&gt;&lt;li&gt;NoSQL/BigData
+        experience preferred but good relational background will be considered&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;The
+        stuff we are looking for in a team mate:&lt;/div&gt;&lt;ul&gt;&lt;li&gt;A
+        strong personality is needed in this role but must be able to work with the
+        rest of the team and mentor other developers. &amp;nbsp;You are seen as an
+        expert and a teacher&lt;/li&gt;&lt;li&gt;Easy to work with but has high expectations
+        of self and others&lt;/li&gt;&lt;li&gt;Competitive streak: wants the win personally
+        and be part of the companies win&lt;/li&gt;&lt;li&gt;Customer fanatic: willing
+        to jump in and do anything to help customers&lt;/li&gt;&lt;/ul&gt;\n\n\n&lt;p&gt;&lt;strong&gt;To
+        apply:&lt;/strong&gt; APPLY HERE: &lt;a href=&quot;https://hire.jobvite.com/j?aj=oSBxZfwJ&amp;amp;s=weworkremotely&quot;&gt;https://hire.jobvite.com/j?aj=oSBxZfwJ&amp;amp;s=weworkremotely&lt;/a&gt;&lt;/p&gt;\n</description>\n
+        \     <pubDate>Fri, 14 Nov 2014 22:52:55 +0000</pubDate>\n      <guid>https://weworkremotely.com/jobs/1077</guid>\n
+        \     <link>https://weworkremotely.com/jobs/1077</link>\n    </item>\n    <item>\n
+        \     <title>Clevertech: Incredible node.js Leader</title>\n      <description>&lt;img
+        alt=&quot;Resized_logo&quot; src=&quot;https://dge9rmgqjs8m1.cloudfront.net/wwr_s3/logos/0000/1697/logo.gif/resized_logo.png?r=3&quot;
+        /&gt;\n\n&lt;p&gt;\n  &lt;strong&gt;Location:&lt;/strong&gt; New York, NY\n
+        \   &lt;br /&gt;&lt;strong&gt;URL:&lt;/strong&gt; &lt;a href=&quot;http://www.clevertech.biz&quot;&gt;www.clevertech.biz&lt;/a&gt;\n&lt;/p&gt;\n\n&lt;div&gt;&lt;strong&gt;About
+        You&lt;/strong&gt;&lt;/div&gt;&lt;div&gt;&lt;strong&gt;&lt;br /&gt;&lt;/strong&gt;&lt;/div&gt;&lt;div&gt;Web
+        Development is your biggest passion (even if you tell your significant other
+        a different story).&lt;/div&gt;&lt;div class=&quot;paragraph_break&quot;&gt;&lt;br
+        /&gt;&lt;/div&gt;&lt;div&gt;Even though you&#8217;re most comfortable with
+        node.js, you love trying out new languages, frameworks, libraries, and leveraging
+        them off, whenever necessary.&lt;/div&gt;&lt;div class=&quot;paragraph_break&quot;&gt;&lt;br
+        /&gt;&lt;/div&gt;&lt;div&gt;You have rejected offers from companies like Google,
+        Facebook, or Twitter, because they don&#8217;t believe in the power of Remote
+        Teams.&lt;/div&gt;&lt;div class=&quot;paragraph_break&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;You
+        have led projects and teams to success.&lt;/div&gt;&lt;div class=&quot;paragraph_break&quot;&gt;&lt;br
+        /&gt;&lt;/div&gt;&lt;div&gt;You have visible and amazing accomplishments.&lt;/div&gt;&lt;div
+        class=&quot;paragraph_break&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;&lt;strong&gt;About
+        Clevertech&lt;/strong&gt;&lt;/div&gt;&lt;div&gt;&lt;strong&gt;&lt;br /&gt;&lt;/strong&gt;&lt;/div&gt;&lt;div&gt;We
+        have been around for 14 years and have over 70 developers and designers, scattered
+        all over the world working together.&lt;/div&gt;&lt;div class=&quot;paragraph_break&quot;&gt;&lt;br
+        /&gt;&lt;/div&gt;&lt;div&gt;We are very much enthralled by Agile and Lean
+        principles, successfully launching products in short windows of time. That&#8217;s
+        possible due to the power of focus.&lt;/div&gt;&lt;div class=&quot;paragraph_break&quot;&gt;&lt;br
+        /&gt;&lt;/div&gt;&lt;div&gt;Some of the great things we do are visible in
+        &lt;a href=&quot;http://cleverstack.io&quot;&gt;http://cleverstack.io&lt;/a&gt;,
+        &lt;a href=&quot;http://cleverte.ch/bloomberg&quot;&gt;http://cleverte.ch/bloomberg&lt;/a&gt;,
+        &lt;a href=&quot;http://visualcaptcha.net&quot;&gt;http://visualcaptcha.net&lt;/a&gt;,
+        and &lt;a href=&quot;http://clevertech.biz&quot;&gt;http://clevertech.biz&lt;/a&gt;.&lt;/div&gt;&lt;div
+        class=&quot;paragraph_break&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;We
+        could tell you more, but it&#8217;s much more interesting to see what you
+        find out.&lt;/div&gt;&lt;div class=&quot;paragraph_break&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;&lt;strong&gt;About
+        the Job&lt;/strong&gt;&lt;/div&gt;&lt;div&gt;&lt;strong&gt;&lt;br /&gt;&lt;/strong&gt;&lt;/div&gt;&lt;div&gt;If
+        you fit this description, reach out with your 2-3 best accomplishments and
+        tell us a story about your ambition and how working with us will help you
+        achieve it.&lt;/div&gt;&lt;div class=&quot;paragraph_break&quot;&gt;&lt;br
+        /&gt;&lt;/div&gt;&lt;div&gt;We only require that you work at least 5 hours
+        within New York&#8217;s 9am-5pm.&lt;/div&gt;&lt;div class=&quot;paragraph_break&quot;&gt;&lt;br
+        /&gt;&lt;/div&gt;&lt;div&gt;This is a full-time, fully remote, 8h/day, 40h/week,
+        160h/month offer.&lt;/div&gt;&lt;div class=&quot;paragraph_break&quot;&gt;&lt;br
+        /&gt;&lt;/div&gt;&lt;div&gt;Note for US residents: this is corp-2-corp (1099,
+        not W2).&lt;/div&gt;&lt;div class=&quot;paragraph_break&quot;&gt;&lt;br /&gt;&lt;/div&gt;\n\n\n&lt;p&gt;&lt;strong&gt;To
+        apply:&lt;/strong&gt; &lt;a href=&quot;http://hire.clevertech.biz/job/53d11b3ef74076752edb3956&quot;&gt;http://hire.clevertech.biz/job/53d11b3ef74076752edb3956&lt;/a&gt;&lt;/p&gt;\n</description>\n
+        \     <pubDate>Fri, 14 Nov 2014 16:55:22 +0000</pubDate>\n      <guid>https://weworkremotely.com/jobs/1076</guid>\n
+        \     <link>https://weworkremotely.com/jobs/1076</link>\n    </item>\n    <item>\n
+        \     <title>Golden Frog: Sr. JavaScript Engineer</title>\n      <description>&lt;img
+        alt=&quot;Resized_logo&quot; src=&quot;https://dge9rmgqjs8m1.cloudfront.net/wwr_s3/logos/0000/1695/logo.gif/resized_logo.png?r=3&quot;
+        /&gt;\n\n&lt;p&gt;\n  &lt;strong&gt;Location:&lt;/strong&gt; Austin, Tx\n
+        \   &lt;br /&gt;&lt;strong&gt;URL:&lt;/strong&gt; &lt;a href=&quot;http://www.goldenfrog.com&quot;&gt;www.goldenfrog.com&lt;/a&gt;\n&lt;/p&gt;\n\n&lt;div&gt;&lt;em&gt;&lt;strong&gt;&quot;While
+        we're headquartered in Austin, Tx, &amp;nbsp;some of our team is remote. &amp;nbsp;We
+        care more about what you can do than where you live&quot;&lt;/strong&gt;&lt;/em&gt;&lt;/div&gt;&lt;div&gt;&lt;strong&gt;&lt;em&gt;&lt;br
+        /&gt;&lt;/em&gt;&lt;/strong&gt;&lt;/div&gt;&lt;div&gt;Help us architect and
+        implement cutting edge web application and websites for Golden Frog and our
+        sister companies. You will work closely with our web designers and system
+        engineers to implement user interfaces and consumer facing web applications.&lt;/div&gt;&lt;div
+        class=&quot;paragraph_break&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;&lt;strong&gt;Primary
+        Responsibilities:&lt;/strong&gt;&lt;/div&gt;&lt;div class=&quot;paragraph_break&quot;&gt;&lt;br
+        /&gt;&lt;/div&gt;&lt;ul&gt;&lt;li&gt;Lead the development of new features
+        and defect resolution on existing applications, as well as assist with scoping
+        and designing new product initiatives&lt;/li&gt;&lt;li&gt;Participate in an
+        active Agile team environment - provide estimates, participating in retrospectives,
+        give product demos, participate in daily stand-ups reports, etc.&amp;nbsp;&lt;/li&gt;&lt;li&gt;Task
+        and estimate product feature requests&lt;/li&gt;&lt;li&gt;Establish and implement
+        best practices and standards&lt;/li&gt;&lt;li&gt;Lead research and design
+        efforts when considering new frameworks, libraries and technologies&lt;/li&gt;&lt;li&gt;Maintain
+        and improve quality standards to deliver high quality feature releases&lt;/li&gt;&lt;li&gt;Mentoring
+        team members and knowledge sharing across the organization&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;&lt;strong&gt;&amp;nbsp;&lt;/strong&gt;&lt;br
+        /&gt;&lt;/div&gt;&lt;div&gt;&lt;strong&gt;Skills &amp;amp; Requirements:&lt;/strong&gt;&lt;/div&gt;&lt;div
+        class=&quot;paragraph_break&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;ul&gt;&lt;li&gt;5+
+        years&#8217; experience with web-based development&lt;/li&gt;&lt;li&gt;Proficiency
+        with &#8220;vanilla&#8221; JavaScript; experience with JavaScript libraries
+        (e.g., jQuery, Prototype, YUI, etc.)&lt;/li&gt;&lt;li&gt;Experience with 2
+        or more JavaScript frameworks (e.g., Ember, AngularJS, Backbone, etc.)&lt;/li&gt;&lt;li&gt;Experience
+        developing large-scale applications using 1 or more of the following methodologies:
+        MVVM, MVC, MVP&lt;/li&gt;&lt;li&gt;Experience with HTML and CSS&lt;/li&gt;&lt;li&gt;Self-motivated
+        and driven individual that takes initiative and able to work with minimal
+        supervision&lt;/li&gt;&lt;/ul&gt;&lt;div class=&quot;paragraph_break&quot;&gt;&lt;br
+        /&gt;&lt;/div&gt;&lt;div&gt;&lt;strong&gt;Preferred Skills:&lt;/strong&gt;&lt;/div&gt;&lt;div
+        class=&quot;paragraph_break&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;ul&gt;&lt;li&gt;Experience
+        with Agile methodologies (Scrum, Kanban, Lean, etc.)&lt;/li&gt;&lt;li&gt;Unit
+        testing experience&lt;/li&gt;&lt;/ul&gt;&lt;div class=&quot;paragraph_break&quot;&gt;&lt;br
+        /&gt;&lt;/div&gt;&lt;div&gt;Golden Frog provides the opportunity to work on
+        the latest operating systems with fast moving and technically challenging
+        projects.&amp;nbsp; You can see some of our products here: &amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div
+        class=&quot;paragraph_break&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;&lt;a
+        href=&quot;http://www.goldenfrog.com/vyprvpn&quot;&gt;&lt;/a&gt;&lt;a href=&quot;http://www.goldenfrog.com/vyprvpn&quot;&gt;http://www.goldenfrog.com/vyprvpn&lt;/a&gt;&lt;br
+        /&gt;&lt;/div&gt;&lt;div&gt;&lt;a href=&quot;http://www.goldenfrog.com/dumptruck&quot;&gt;&lt;/a&gt;&lt;a
+        href=&quot;http://www.goldenfrog.com/dumptruck&quot;&gt;http://www.goldenfrog.com/dumptruck&lt;/a&gt;&lt;/div&gt;&lt;div&gt;&lt;a
+        href=&quot;http://www.goldenfrog.com/cyphr&quot;&gt;&lt;/a&gt;&lt;a href=&quot;http://www.goldenfrog.com/cyphr&quot;&gt;http://www.goldenfrog.com/cyphr&lt;/a&gt;&lt;/div&gt;&lt;div
+        class=&quot;paragraph_break&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;Technically
+        talented teams.&amp;nbsp;&amp;nbsp; A variety of challenging projects. Standard
+        business hours that allow for an enjoyable work/life balance. And, the ability
+        to contribute! This is what you can look forward to if you join our team.
+        This position also offers a generous 401k profit-sharing plan, medical, dental,
+        and vision insurance, and paid time off (including the week between Christmas
+        and New Year&#8217;s!).&lt;/div&gt;&lt;div class=&quot;paragraph_break&quot;&gt;&lt;br
+        /&gt;&lt;/div&gt;\n\n\n&lt;p&gt;&lt;strong&gt;To apply:&lt;/strong&gt; &lt;a
+        href=&quot;https://hire.jobvite.com/j?aj=oHnPZfwC&amp;amp;s=WeWorkRemotely&quot;&gt;https://hire.jobvite.com/j?aj=oHnPZfwC&amp;amp;s=WeWorkRemotely&lt;/a&gt;&lt;/p&gt;\n</description>\n
+        \     <pubDate>Thu, 13 Nov 2014 19:41:39 +0000</pubDate>\n      <guid>https://weworkremotely.com/jobs/1074</guid>\n
+        \     <link>https://weworkremotely.com/jobs/1074</link>\n    </item>\n    <item>\n
+        \     <title>Tealeaf Academy: Senior Ruby and Javascript Developer</title>\n
+        \     <description>\n\n&lt;p&gt;\n  &lt;strong&gt;Location:&lt;/strong&gt;
+        N/A\n    &lt;br /&gt;&lt;strong&gt;URL:&lt;/strong&gt; &lt;a href=&quot;http://www.gotealeaf.com&quot;&gt;http://www.gotealeaf.com&lt;/a&gt;\n&lt;/p&gt;\n\n&lt;div&gt;We
+        are looking for someone to help us build Ruby/Rails and Javascript training
+        courses. Work includes scoping and building course projects, organizing topic
+        and explaining concepts in writing. English fluency is a must.&amp;nbsp;&lt;/div&gt;&lt;div
+        class=&quot;paragraph_break&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;Looking
+        for someone with strong Ruby and Javascript project experiences, can write
+        well and explain concepts with clarity, and enjoy teaching and working with
+        junior developers. Many people come to us to become professional developers
+        and pursue their passion. Your work will literally change the trajectories
+        of their lives.&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;paragraph_break&quot;&gt;&lt;br
+        /&gt;&lt;/div&gt;&lt;div&gt;Need at least 15~20 hours per week commitment.
+        &amp;nbsp;You will have a lot of creative freedom and autonomy - we like to
+        work with capable people so we don't have to manage. &amp;nbsp;Will pay competitively
+        and happy to work long term with the right person.&amp;nbsp;&lt;/div&gt;&lt;div
+        class=&quot;paragraph_break&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;Check
+        out our site at&amp;nbsp;&lt;a href=&quot;http://www.gotealeaf.com/&quot;&gt;www.gotealeaf.com&lt;/a&gt;&amp;nbsp;and
+        email me at&amp;nbsp;&lt;a href=&quot;mailto:kevin@gotealeaf.com&quot;&gt;kevin@gotealeaf.com&lt;/a&gt;&amp;nbsp;if
+        interested, with a few paragraphs of your experience.&lt;/div&gt;&lt;div class=&quot;paragraph_break&quot;&gt;&lt;br
+        /&gt;&lt;/div&gt;\n\n\n&lt;p&gt;&lt;strong&gt;To apply:&lt;/strong&gt; Please
+        send some paragraphs of your background and past project experiences to &lt;a
+        href=&quot;&amp;#109;&amp;#97;&amp;#105;&amp;#108;&amp;#116;&amp;#111;&amp;#58;%6b%65%76%69%6e@%67%6f%74%65%61%6c%65%61%66.%63%6f%6d&quot;&gt;kevin@gotealeaf.com&lt;/a&gt;.
+        &lt;/p&gt;\n</description>\n      <pubDate>Thu, 13 Nov 2014 07:00:14 +0000</pubDate>\n
+        \     <guid>https://weworkremotely.com/jobs/1072</guid>\n      <link>https://weworkremotely.com/jobs/1072</link>\n
+        \   </item>\n    <item>\n      <title>Open mHealth: Software Engineer focused
+        on front-end at non-profit digital health startup</title>\n      <description>&lt;img
+        alt=&quot;Resized_logo&quot; src=&quot;https://dge9rmgqjs8m1.cloudfront.net/wwr_s3/logos/0000/1691/logo.gif/resized_logo.png?r=3&quot;
+        /&gt;\n\n&lt;p&gt;\n  &lt;strong&gt;Location:&lt;/strong&gt; NYC but love
+        remote \n    &lt;br /&gt;&lt;strong&gt;URL:&lt;/strong&gt; &lt;a href=&quot;http://www.openmhealth.org&quot;&gt;http://www.openmhealth.org&lt;/a&gt;\n&lt;/p&gt;\n\n&lt;div&gt;Open
+        mHealth is a non-profit technology company that&#8217;s unlocking digital
+        health data. &lt;/div&gt;&lt;div class=&quot;paragraph_break&quot;&gt;&lt;br
+        /&gt;&lt;/div&gt;&lt;div&gt;As Software Engineer, you&#8217;ll be focusing
+        on front-end development. Your scope will be everything from writing code
+        to collaborating around how to make the Open mHealth &lt;a href=&quot;http://www.openmhealth.org/developers/getting-started/&quot;&gt;platform&lt;/a&gt;
+        and &lt;a href=&quot;http://linqhealth.co&quot;&gt;products&lt;/a&gt; better
+        and widely adopted. You&#8217;ll be taking digital health data from disparate
+        places and making it meaningful for patients and clinicians. You&#8217;ll
+        need to be able to zoom in on fine-grained details as well as zoom out on
+        the product roadmap and work alongside our lead engineer, lead designer, product
+        managers and data scientist. &lt;/div&gt;&lt;div class=&quot;paragraph_break&quot;&gt;&lt;br
+        /&gt;&lt;/div&gt;&lt;div&gt;Part of Open mHealth is our growing developer
+        community. You&#8217;ll be continuously sharing your work with others, so
+        documenting and sharing what you and your team are doing is critical for growing
+        and nurturing the community.&lt;/div&gt;&lt;div class=&quot;paragraph_break&quot;&gt;&lt;br
+        /&gt;&lt;/div&gt;&lt;div&gt;Our open platform is built to encourage interoperability
+        and adoption, so we use open-source technologies and follow best practices.
+        We publish RESTful APIs that use OAuth for authorization and exchange JSON
+        documents conforming to JSON Schemas.&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;paragraph_break&quot;&gt;&lt;br
+        /&gt;&lt;/div&gt;&lt;div&gt;Our frontends are built in HTML, CSS, and JS using
+        AngularJS, and leverage tools like Bower, Grunt, Karma, Jasmine, and Protractor.&amp;nbsp;&lt;/div&gt;&lt;div
+        class=&quot;paragraph_break&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;Our
+        backends are built in Java and Spring, use MongoDB, PostgreSQL and other data
+        stores. We build with Gradle, create Docker containers, host on AWS, and release
+        often. We&#8217;re always interested in different technologies, and try to
+        settle on what&#8217;s well understood and fit for purpose.&lt;/div&gt;&lt;div
+        class=&quot;paragraph_break&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;While
+        Open mHealth is based in NYC and San Francisco, we&#8217;re looking to hire
+        the best people, wherever you are in the world.&lt;br /&gt;&lt;/div&gt;&lt;ul&gt;&lt;li&gt;In-depth
+        knowledge of HTTP and RESTful APIs &lt;/li&gt;&lt;li&gt;Advanced skills in
+        front-end development, including AngularJS and data visualization. &lt;/li&gt;&lt;li&gt;Some
+        skills in server-side web development (Java, node.js or any other JVM languages).
+        We&#8217;ve built the open architecture using Java because of scalability
+        reasons.&lt;/li&gt;&lt;li&gt;You have deep knowledge of: JavaScript, HTML5,
+        CSS3, AngularJS, D3/highcharts/chartjs, phonegap, responsive design, and Git&lt;/li&gt;&lt;li&gt;Would
+        be awesome if you also knew: Gradle, Jasmine, Grunt, Gulp, Protractor and
+        eager to learn iOS and Android development. &lt;/li&gt;&lt;li&gt;You&#8217;ve
+        shipped software products to market before and have at least 3+ years professional
+        software development experience&lt;/li&gt;&lt;li&gt;You&#8217;re a go-getter,
+        a doer and passionate about building beautiful things. Not to mention you&#8217;re
+        self-motivating, self-directing and always communicating. &lt;/li&gt;&lt;li&gt;You
+        want to help us break down the barriers to health data and help change the
+        face of healthcare as we know it &lt;/li&gt;&lt;li&gt;BS or MEng/S in computer
+        science, software engineering, or equivalent experience &lt;/li&gt;&lt;li&gt;You
+        can communicate effectively in both written and verbal form with engineers,
+        funders, business executives, and healthcare professionals&lt;/li&gt;&lt;li&gt;Proven
+        telecommuting skills: self-motivating, self-directing, and aggressively communicative
+        (if working remotely)&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;&lt;strong&gt;&lt;strong&gt;&lt;br
+        /&gt;&lt;/strong&gt;&lt;/strong&gt;&lt;/div&gt;&lt;div&gt;&lt;strong&gt;&lt;strong&gt;Great
+        benefits&lt;/strong&gt;&lt;/strong&gt;&lt;br /&gt;&lt;/div&gt;&lt;ol&gt;&lt;li&gt;Health
+        (Medical, Dental, Vision)&lt;/li&gt;&lt;li&gt;Financial (403b) and Life Insurance&lt;/li&gt;&lt;li&gt;Community
+        Supported Agriculture Stipend&lt;/li&gt;&lt;li&gt;Healthy activity stipend&lt;/li&gt;&lt;li&gt;Flexible
+        hours&lt;/li&gt;&lt;li&gt;Work remotely&lt;/li&gt;&lt;li&gt;We care about
+        work-life balance&lt;/li&gt;&lt;/ol&gt;&lt;div class=&quot;paragraph_break&quot;&gt;&lt;br
+        /&gt;&lt;/div&gt;&lt;div&gt;Open mHealth is an &quot;at-will&quot;, equal
+        opportunity employer that does not discriminate in employment matters because
+        of race, religion, sex, national origin, ethnicity, age, mental or physical
+        disability, sexual orientation, gender (including pregnancy and gender expression)
+        identity, color, marital status, veteran status, medical condition, or any
+        other classification protected by federal, state, or local law or ordinance.
+        &lt;/div&gt;&lt;div class=&quot;paragraph_break&quot;&gt;&lt;br /&gt;&lt;/div&gt;\n\n\n&lt;p&gt;&lt;strong&gt;To
+        apply:&lt;/strong&gt; Send along a resume, cover letter and pointers to any
+        work you&#8217;re proud of. Email everything to &lt;a href=&quot;&amp;#109;&amp;#97;&amp;#105;&amp;#108;&amp;#116;&amp;#111;&amp;#58;%6a%6f%69%6e%74%68%65%74%65%61%6d@%6f%70%65%6e%6d%68%65%61%6c%74%68.%6f%72%67&quot;&gt;jointheteam@openmhealth.org&lt;/a&gt;.
+        Include &#8220;Software Engineer&#8221; in the subject line. Please send your
+        resume as a PDF.\r\n&lt;/p&gt;\n</description>\n      <pubDate>Wed, 12 Nov
+        2014 19:21:42 +0000</pubDate>\n      <guid>https://weworkremotely.com/jobs/1069</guid>\n
+        \     <link>https://weworkremotely.com/jobs/1069</link>\n    </item>\n    <item>\n
+        \     <title>General Assembly: Full Stack Engineer</title>\n      <description>&lt;img
+        alt=&quot;Resized_logo&quot; src=&quot;https://dge9rmgqjs8m1.cloudfront.net/wwr_s3/logos/0000/1690/logo.gif/resized_logo.png?r=3&quot;
+        /&gt;\n\n&lt;p&gt;\n  &lt;strong&gt;Location:&lt;/strong&gt; New York, NY\n
+        \   &lt;br /&gt;&lt;strong&gt;URL:&lt;/strong&gt; ga.co\n&lt;/p&gt;\n\n&lt;div&gt;Who
+        we are&lt;/div&gt;&lt;div class=&quot;paragraph_break&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;General
+        Assembly (&lt;a href=&quot;https://generalassemb.ly/&quot;&gt;https://generalassemb.ly/&lt;/a&gt;)
+        is a venture-backed, NYC-based startup focusing on education for individuals
+        and enterprises in the areas of technology, design, and entrepreneurship.
+        We currently have physical classrooms in 11 cities across 4 continents, with
+        tens of thousands of students coming through our doors.&lt;/div&gt;&lt;div
+        class=&quot;paragraph_break&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;Who
+        you are&lt;/div&gt;&lt;div class=&quot;paragraph_break&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;We
+        are looking for talented &amp;amp; creative engineers to join our growing
+        team, and help us build great products.&lt;/div&gt;&lt;div class=&quot;paragraph_break&quot;&gt;&lt;br
+        /&gt;&lt;/div&gt;&lt;ul&gt;&lt;li&gt;You have 3-5 years of experience as a
+        mid to senior level engineer&lt;/li&gt;&lt;li&gt;You're used to working with
+        Rails &amp;amp; Ruby and you have advanced experience building RESTful web
+        services &amp;amp; APIs&lt;/li&gt;&lt;li&gt;You have experience working with
+        a variety of languages, with a strong grasp of their pros &amp;amp; cons&lt;/li&gt;&lt;li&gt;You're
+        a kind &amp;amp; respectful person, invested in contributing to a wonderful
+        team culture (bullies &amp;amp; big egos stictly not allowed)&lt;/li&gt;&lt;li&gt;You
+        are occasionally enthusiastic to the point of being profoundly uncool&lt;/li&gt;&lt;li&gt;You
+        get insanely excited by at least 1 thing that has absolutely nothing to do
+        with computers&lt;/li&gt;&lt;/ul&gt;&lt;div class=&quot;paragraph_break&quot;&gt;&lt;br
+        /&gt;&lt;/div&gt;&lt;div&gt;Some other things that would be really nice to
+        have ...&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;paragraph_break&quot;&gt;&lt;br
+        /&gt;&lt;/div&gt;&lt;ul&gt;&lt;li&gt;Strong front-end development skills&lt;/li&gt;&lt;li&gt;Experience
+        designing service-oriented architecture&lt;/li&gt;&lt;li&gt;Web operations
+        or system administration experience&lt;/li&gt;&lt;/ul&gt;&lt;div class=&quot;paragraph_break&quot;&gt;&lt;br
+        /&gt;&lt;/div&gt;&lt;div&gt;What we build&lt;/div&gt;&lt;div class=&quot;paragraph_break&quot;&gt;&lt;br
+        /&gt;&lt;/div&gt;&lt;div&gt;We are organized into small cross-functional product
+        teams (a PM, a designer, a few devs) that focus on growing a single product
+        from glimmer to gamechanger. Each team is free to determine their own tools
+        &amp;amp; process. What are these teams working on?&lt;/div&gt;&lt;div class=&quot;paragraph_break&quot;&gt;&lt;br
+        /&gt;&lt;/div&gt;&lt;ul&gt;&lt;li&gt;Data &amp;amp; systems that support our
+        global campus business - &lt;a href=&quot;https://generalassemb.ly/locations&quot;&gt;https://generalassemb.ly/locations&lt;/a&gt;&lt;/li&gt;&lt;li&gt;Evolving
+        large applications into an ecosystem of microservices&lt;/li&gt;&lt;li&gt;Innovative
+        online education experiences for consumer &amp;amp; enterprise users - &lt;a
+        href=&quot;https://generalassemb.ly/education/web-design-circuit&quot;&gt;https://generalassemb.ly/education/web-design-circuit&lt;/a&gt;&lt;/li&gt;&lt;li&gt;Platforms
+        to connect our community of students &amp;amp; alumni - &lt;a href=&quot;http://profiles.ga.co&quot;&gt;http://profiles.ga.co&lt;/a&gt;&lt;/li&gt;&lt;li&gt;Internal
+        tools supporting every part of our organization&amp;nbsp;&lt;/li&gt;&lt;/ul&gt;&lt;div
+        class=&quot;paragraph_break&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;What
+        it's like to be on the team&lt;/div&gt;&lt;ul&gt;&lt;li&gt;We use GitHub for
+        code review, Code Climate and Semaphore to keep entropy at bay, and Heroku
+        to focus on building things&lt;/li&gt;&lt;li&gt;We favor trying new things
+        over fear of mistakes&lt;/li&gt;&lt;li&gt;We are anti-dogmatic: use whatever
+        code editor you like, pair-program when you like&lt;/li&gt;&lt;li&gt;We try
+        to seek a balance between sticking with what works and fearlessly exploring
+        the new&lt;/li&gt;&lt;li&gt;We are always learning, always teaching&lt;/li&gt;&lt;li&gt;We
+        are passionate about writing good code&lt;/li&gt;&lt;li&gt;We apologize for
+        and learn from our mistakes&lt;/li&gt;&lt;li&gt;We have worked hard to build
+        a culture of trust, continual improvement, and mutual support&lt;/li&gt;&lt;/ul&gt;&lt;div
+        class=&quot;paragraph_break&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;We
+        &amp;lt;3 remotes!&lt;/div&gt;&lt;div class=&quot;paragraph_break&quot;&gt;&lt;br
+        /&gt;&lt;/div&gt;&lt;div&gt;Even though GA is headquartered in New York City,
+        more than half of our engineering team is not. We remote in from little towns
+        and big cities from California to the Netherlands. And even our New York devs
+        spend the odd day (or month) working from home or elsewhere.&lt;/div&gt;&lt;div
+        class=&quot;paragraph_break&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;We
+        are serious about making remote collaboration work, with tools like Slack,
+        Skype, and Screenhero becoming a big part of our daily lives.&lt;/div&gt;&lt;div
+        class=&quot;paragraph_break&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;Four
+        times a year, we fly the whole engineering team to New York for a few days
+        of workshops, lightning talks, urban adventures, and an epic hackathon.&lt;/div&gt;&lt;div
+        class=&quot;paragraph_break&quot;&gt;&lt;br /&gt;&lt;/div&gt;\n\n\n&lt;p&gt;&lt;strong&gt;To
+        apply:&lt;/strong&gt; Apply online: &lt;a href=&quot;http://grnh.se/0cnigt&quot;&gt;http://grnh.se/0cnigt&lt;/a&gt;&lt;/p&gt;\n</description>\n
+        \     <pubDate>Wed, 12 Nov 2014 14:34:57 +0000</pubDate>\n      <guid>https://weworkremotely.com/jobs/1067</guid>\n
+        \     <link>https://weworkremotely.com/jobs/1067</link>\n    </item>\n    <item>\n
+        \     <title>Klixplus Pty Ltd: Senior Developer</title>\n      <description>\n\n&lt;p&gt;\n
+        \ &lt;strong&gt;Location:&lt;/strong&gt; Gold Coast, Queensland, Australia\n
+        \   &lt;br /&gt;&lt;strong&gt;URL:&lt;/strong&gt; &lt;a href=&quot;http://klixplus.com/&quot;&gt;http://klixplus.com/&lt;/a&gt;\n&lt;/p&gt;\n\n&lt;div&gt;QLD
+        - Gold Coast&lt;br /&gt;&lt;/div&gt;&lt;div&gt;Permanent Full-time&lt;/div&gt;&lt;div&gt;&lt;strong&gt;About
+        Us&lt;/strong&gt;&lt;/div&gt;&lt;div class=&quot;paragraph_break&quot;&gt;&lt;br
+        /&gt;&lt;/div&gt;&lt;div&gt;My name is Adam and 7 years ago I started a small
+        but dynamic Web Development Company. Today we own and run high traffic web
+        sites with over 500,000 visitors daily. We are based on the Gold Coast Queensland
+        and are profitable and growing. If you're wanting to be a part of a young
+        successful team and who love technology then read on....&lt;/div&gt;&lt;div
+        class=&quot;paragraph_break&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;&lt;strong&gt;Who
+        would be the right fit for us?&lt;/strong&gt;&lt;/div&gt;&lt;div class=&quot;paragraph_break&quot;&gt;&lt;br
+        /&gt;&lt;/div&gt;&lt;div&gt;We are a team of Ruby/Rails enthusiasts and most
+        of our new projects are built around this technology, however you would need
+        to have very strong linux server administration skills, understand PHP and
+        other popular programming languages. Some things we use every day and love:
+        Linux, Git, GitHub, Vim, nginx, Varnish, Unicorn, Rails, PostgreSQL, Redis,
+        Javascript/CoffeeScript, and others. Proven experience with high-traffic web
+        sites and TDD/BDD are pluses.&lt;/div&gt;&lt;div class=&quot;paragraph_break&quot;&gt;&lt;br
+        /&gt;&lt;/div&gt;&lt;div&gt;Personality wise we talk every day, but only for
+        a few minutes here and there via Campfire, Email, or Skype. The ideal candidate
+        would be able to get his ideas/points/communication across in as few words/phrases
+        as possible, the same way their code should also be developed.&lt;/div&gt;&lt;div
+        class=&quot;paragraph_break&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;&lt;strong&gt;Other
+        Important Things&lt;/strong&gt;&lt;/div&gt;&lt;div class=&quot;paragraph_break&quot;&gt;&lt;br
+        /&gt;&lt;/div&gt;&lt;div&gt;We allow full time commuting. We have offices
+        on the Gold Coast so visiting us should be fun. We allow our developers to
+        contribute to open source. The developers here get to pick their tools and
+        technologies on new projects, as well as name new code bases they start. We
+        pay competitively.&lt;br /&gt;&lt;/div&gt;\n\n\n&lt;p&gt;&lt;strong&gt;To
+        apply:&lt;/strong&gt; Drop us a line and show us one of your projects, a GitHub/StackOverflow
+        profile, or anything else you&amp;#39;re proud of to: &lt;a href=&quot;&amp;#109;&amp;#97;&amp;#105;&amp;#108;&amp;#116;&amp;#111;&amp;#58;%6a%6f%62%73@%6b%6c%69%78%70%6c%75%73.%63%6f%6d&quot;&gt;jobs@klixplus.com&lt;/a&gt;\n&lt;/p&gt;\n</description>\n
+        \     <pubDate>Wed, 12 Nov 2014 03:42:22 +0000</pubDate>\n      <guid>https://weworkremotely.com/jobs/1066</guid>\n
+        \     <link>https://weworkremotely.com/jobs/1066</link>\n    </item>\n    <item>\n
+        \     <title>Hack Reactor: Lead Mentor</title>\n      <description>&lt;img
+        alt=&quot;Resized_logo&quot; src=&quot;https://dge9rmgqjs8m1.cloudfront.net/wwr_s3/logos/0000/1689/logo.gif/resized_logo.png?r=3&quot;
+        /&gt;\n\n&lt;p&gt;\n  &lt;strong&gt;Location:&lt;/strong&gt; San Francisco,
+        CA\n    &lt;br /&gt;&lt;strong&gt;URL:&lt;/strong&gt; &lt;a href=&quot;http://www.hackreactor.com/&quot;&gt;http://www.hackreactor.com/&lt;/a&gt;\n&lt;/p&gt;\n\n&lt;div&gt;Hack
+        Reactor is a school for software engineers. &amp;nbsp;Among graduates of our
+        three-month program, the placement rate is 99% and the average salary is $105,000.
+        &amp;nbsp;This year, we will educate more software engineers than Stanford,
+        UC Berkeley, and Caltech combined. &amp;nbsp;Students frequently describe
+        the program as &quot;The best decision I ever made&quot; in the yelp reviews
+        listed here:&amp;nbsp;&lt;a href=&quot;http://yelp.com/biz/hack-reactor-san-francisco&quot;&gt;http://yelp.com/biz/hack-reactor-san-francisco&lt;/a&gt;&lt;/div&gt;&lt;div
+        class=&quot;paragraph_break&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;The
+        Lead Mentor works closely with a small classroom of students across the length
+        of the program, and is charged with both with the students' educational outcomes
+        as well as the strength of the classroom community. &amp;nbsp;They watch over
+        a class of students in the midst of a career transition and ensure on a day-to-day
+        basis that everyone is learning rapidly and is on track for success. &amp;nbsp;When
+        a student gets a job after the program, the lead mentor is the person they
+        thank with the deepest emotion.&lt;br /&gt;&lt;/div&gt;&lt;div&gt;This role
+        is for Hack Reactor's Remote program. &amp;nbsp;The program mirrors Hack Reactor's
+        onsite program in all imaginable ways (admissions, daily schedule and events,
+        curriculum, daily pair programming, outcome goals) except that students work
+        from home and connect with peers and staff using a variety of web tools. &amp;nbsp;Hack
+        Reactor Remote is the world's first web-based immersion school, and in terms
+        of educational efficacy, there is no comparably effective web-based program.&lt;/div&gt;&lt;div
+        class=&quot;paragraph_break&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;Duties:&lt;br
+        /&gt;&lt;/div&gt;&lt;ul&gt;&lt;li&gt;Lecture Q&amp;amp;A&lt;/li&gt;&lt;li&gt;Office
+        hours&lt;/li&gt;&lt;li&gt;Individual instruction and tutoring&lt;/li&gt;&lt;li&gt;Circulate
+        among students&lt;/li&gt;&lt;li&gt;Review student progress across several
+        indicators&lt;/li&gt;&lt;li&gt;Build and execute student action plans to ensure
+        that nobody falls through the cracks&lt;/li&gt;&lt;/ul&gt;&lt;div class=&quot;paragraph_break&quot;&gt;&lt;br
+        /&gt;&lt;/div&gt;&lt;div&gt;Qualifications:&lt;/div&gt;&lt;ul&gt;&lt;li&gt;Expert-level
+        software engineer&lt;/li&gt;&lt;li&gt;Ability to model student progress and
+        remove educational roadblocks&lt;/li&gt;&lt;li&gt;Empathy and charisma&lt;/li&gt;&lt;li&gt;Passion
+        for education and service&lt;/li&gt;&lt;li&gt;Expert-level JavaScript knowledge
+        strongly preferred&lt;/li&gt;&lt;/ul&gt;\n\n\n&lt;p&gt;&lt;strong&gt;To apply:&lt;/strong&gt;
+        Apply here: &lt;a href=&quot;https://www.smartrecruiters.com/HackReactor/79972472-lead-mentor-remote-&quot;&gt;https://www.smartrecruiters.com/HackReactor/79972472-lead-mentor-remote-&lt;/a&gt;&lt;/p&gt;\n</description>\n
+        \     <pubDate>Sun, 09 Nov 2014 22:45:02 +0000</pubDate>\n      <guid>https://weworkremotely.com/jobs/1065</guid>\n
+        \     <link>https://weworkremotely.com/jobs/1065</link>\n    </item>\n    <item>\n
+        \     <title>Taproot Foundation: DEVELOPER, TAPOOT+</title>\n      <description>&lt;img
+        alt=&quot;Resized_logo&quot; src=&quot;https://dge9rmgqjs8m1.cloudfront.net/wwr_s3/logos/0000/1688/logo.gif/resized_logo.png?r=3&quot;
+        /&gt;\n\n&lt;p&gt;\n  &lt;strong&gt;Location:&lt;/strong&gt; San Francisco,
+        CA\n    &lt;br /&gt;&lt;strong&gt;URL:&lt;/strong&gt; &lt;a href=&quot;http://www.taprootfoundation.org/&quot;&gt;http://www.taprootfoundation.org/&lt;/a&gt;\n&lt;/p&gt;\n\n&lt;div&gt;&lt;strong&gt;THE
+        OPPORTUNITY&lt;/strong&gt;&lt;/div&gt;&lt;div class=&quot;paragraph_break&quot;&gt;&lt;br
+        /&gt;&lt;/div&gt;&lt;div&gt;The Taproot Foundation built the pro bono movement,
+        bringing\r\ncritical skills to nonprofits and connecting high-powered professionals
+        to rewarding\r\nservice opportunities&#8212;but we couldn&#8217;t have done
+        it without our best-in-breed\r\ntech tools. Now we&#8217;re building the next
+        big thing: &lt;a href=&quot;http://www.taprootplus.org/&quot;&gt;Taproot+&lt;/a&gt;,
+        an online marketplace for pro\r\nbono service. The right developer will help
+        us make it even bigger. &lt;/div&gt;&lt;div class=&quot;paragraph_break&quot;&gt;&lt;br
+        /&gt;&lt;/div&gt;&lt;div&gt;This position requires creativity, curiosity,
+        and user-centered\r\nthinking. Our tech team operates in an agile environment,
+        delivering products\r\nfor multiple internal and external stakeholders across
+        Taproot&#8217;s many programs\r\nand initiatives. The product is built in
+        Ruby on Rails, but we have other\r\nproducts built in different technologies.
+        &lt;/div&gt;&lt;div class=&quot;paragraph_break&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;The
+        ideal candidate will have full-stack web application experience\r\nand can
+        handle the entire development cycle, from requirements analysis to\r\ndesign,
+        coding, and unit testing. We are looking for a junior-to-mid-level Ruby/Rails\r\ndeveloper
+        OR someone with other coding experience who is a proven fast learner\r\nand
+        wants to move into the Ruby/Rails world. Either way, you must love making\r\nbig
+        things happen in a fast-paced, entrepreneurial, mission-driven environment.\r\nThe
+        right junior developer will find this a great growth opportunity. &amp;nbsp;&lt;/div&gt;&lt;div
+        class=&quot;paragraph_break&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;You
+        have:&lt;/div&gt;&lt;div class=&quot;paragraph_break&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;&#9658;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+        Strong engineering foundations&lt;/div&gt;&lt;div&gt;&#9658;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+        Entrepreneurial, pragmatic mindset&lt;/div&gt;&lt;div&gt;&#9658;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+        Customer focus&lt;/div&gt;&lt;div&gt;&#9658;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+        High degree of personal motivation and attention to detail&lt;/div&gt;&lt;div&gt;&#9658;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+        Interest in the nonprofit sector &lt;/div&gt;&lt;div&gt;&#9658;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+        A successful track record&lt;/div&gt;&lt;div&gt;&#9658;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+        1-3 years of experience with Ruby/Rails or other technologies&lt;/div&gt;&lt;div&gt;&#9658;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+        Experience deploying and supporting a full stack web application,\r\nfrom
+        server provisioning to light database maintenance&lt;/div&gt;&lt;div&gt;&#9658;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+        Familiarity with Agile or Lean software development&lt;/div&gt;&lt;div&gt;&#9658;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+        Track record of using source control, automated testing, and\r\ndeployment
+        to facilitate a scalable development team environment&lt;/div&gt;&lt;div class=&quot;paragraph_break&quot;&gt;&lt;br
+        /&gt;&lt;/div&gt;&lt;div&gt;We have: &lt;/div&gt;&lt;div class=&quot;paragraph_break&quot;&gt;&lt;br
+        /&gt;&lt;/div&gt;&lt;div&gt;&#9658;&amp;nbsp;&amp;nbsp;&amp;nbsp; A high-powered
+        team dedicated to building ground-breaking products\r\nfor the social sector&lt;/div&gt;&lt;div&gt;&#9658;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+        A name-brand nonprofit operating at the intersection of social\r\nchange and
+        big business&lt;/div&gt;&lt;div&gt;&#9658;&amp;nbsp;&amp;nbsp;&amp;nbsp; Great
+        partners, including the innovation company helping us to\r\nbuild the marketplace&lt;/div&gt;&lt;div
+        class=&quot;paragraph_break&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;This
+        role reports to the VP of Product and National Programs.&lt;br /&gt;&lt;/div&gt;&lt;div
+        class=&quot;paragraph_break&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;&lt;strong&gt;About
+        Taproot &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+        &lt;/strong&gt;&lt;/div&gt;&lt;div&gt;Taproot is a\r\nnonprofit organization
+        that makes business talent available to organizations\r\nworking to improve
+        society. Most organizations tackling social problems don&#8217;t\r\nhave access
+        to the marketing, design, technology, management or strategic\r\nplanning
+        resources they need to succeed. Without this talent, few are able to\r\nhave
+        their intended impact on critical issues like the environment, health and\r\neducation.
+        We engage the nation&#8217;s millions of business professionals in pro\r\nbono
+        services. By taking\r\nlessons learned from our award-winning Service Grant
+        Program and applying them\r\nto our innovative new program areas, we work
+        to stimulate the supply of pro\r\nbono resources through our corporate Advisory
+        Services practice, as well as\r\ndemand for these services by giving nonprofits
+        the tools and training\r\nthat sets them up for successful pro bono engagements.
+        &lt;/div&gt;&lt;div class=&quot;paragraph_break&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;This
+        is a full-time exempt position. Compensation and benefits are competitive,
+        and\r\ncommensurate with experience and ability. Applications accepted on
+        rolling\r\nbasis; position to start as soon as possible.&lt;/div&gt;&lt;div
+        class=&quot;paragraph_break&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;THE
+        TAPROOT FOUNDATION IS AN EQUAL OPPORTUNITY EMPLOYER. The\r\nTaproot Foundation
+        strives to reflect the diverse community it serves.\r\nApplicants who contribute
+        to this diversity are strongly encouraged to apply.\r\nQualified applicants
+        with criminal histories will be considered for the\r\nposition in a manner
+        consistent with the Fair Chance Ordinance.&lt;br /&gt;&lt;/div&gt;\n\n\n&lt;p&gt;&lt;strong&gt;To
+        apply:&lt;/strong&gt; Interested? Please submit resume, thoughtful cover letter,
+        and relevant writing sample online at &lt;a href=&quot;http://www.taprootfoundation.org/about-probono/job-description?gnk=job&amp;amp;gni=8a8725d04815aa150148197282f00e18&quot;&gt;http://www.taprootfoundation.org/about-probono/job-description?gnk=job&amp;amp;gni=8a8725d04815aa150148197282f00e18&lt;/a&gt;.\r\n\r\n
+        &lt;/p&gt;\n</description>\n      <pubDate>Sat, 08 Nov 2014 07:42:10 +0000</pubDate>\n
+        \     <guid>https://weworkremotely.com/jobs/1064</guid>\n      <link>https://weworkremotely.com/jobs/1064</link>\n
+        \   </item>\n    <item>\n      <title>Bombich Software: Senior Mac OS X Software
+        Developer</title>\n      <description>&lt;img alt=&quot;Resized_logo&quot;
+        src=&quot;https://dge9rmgqjs8m1.cloudfront.net/wwr_s3/logos/0000/1687/logo.gif/resized_logo.png?r=3&quot;
+        /&gt;\n\n&lt;p&gt;\n  &lt;strong&gt;Location:&lt;/strong&gt; Western Massachusetts\n
+        \   &lt;br /&gt;&lt;strong&gt;URL:&lt;/strong&gt; &lt;a href=&quot;http://bombich.com&quot;&gt;http://bombich.com&lt;/a&gt;\n&lt;/p&gt;\n\n&lt;div&gt;We
+        write Carbon Copy Cloner for OS X and are looking for an experienced OS X
+        developer with deep operational knowledge of the Mac OS&amp;nbsp;to join our
+        team.&lt;/div&gt;&lt;div class=&quot;paragraph_break&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;We&amp;nbsp;were
+        founded more than&amp;nbsp;10 years and have grown 100% by word of mouth.
+        Our customers span more than 170 different countries, and our employees live
+        and work across the United States, including Massachusetts, New York, Texas
+        and Missouri. This is a remote position and we are interested in candidates
+        that can work at least part of their day between 9am and 5pm EST&amp;nbsp;and
+        can legally work in the United States. We use Slack, Evernote, Basecamp, Google
+        Docs, and Zendesk to collaborate.&lt;/div&gt;&lt;div class=&quot;paragraph_break&quot;&gt;&lt;br
+        /&gt;&lt;/div&gt;&lt;div&gt;What you need for this position:&lt;/div&gt;&lt;ul&gt;&lt;li&gt;At
+        least 5 years of commercial software engineering experience, and at least
+        2 years in recent OS X commercial software application development for a well-known
+        and broadly&amp;nbsp;used application&lt;/li&gt;&lt;li&gt;Expert-level Objective-C
+        and C skills&lt;/li&gt;&lt;li&gt;Expert-level knowledge and experience with
+        OS X programming: Cocoa, Appkit, Grand Central Dispatch, Core Services (especially
+        network and file system),&amp;nbsp;ServiceManagement, XPC&lt;/li&gt;&lt;li&gt;Deep
+        understanding of operating system fundamentals (startup process, launchd,
+        local and network file systems -- how OS X &quot;works&quot;)&lt;/li&gt;&lt;li&gt;Experience
+        with version control, such as Subversion or Git&lt;/li&gt;&lt;li&gt;Expert-level
+        experience with the last three releases of OS X, from both a development and
+        operational perspective&lt;/li&gt;&lt;li&gt;Experience with scripting languages
+        (bash and AppleScript preferred)&lt;/li&gt;&lt;li&gt;B.S. in Computer Science
+        or equivalent software development and build engineering experience&lt;/li&gt;&lt;li&gt;Communicate
+        well on a remote team (previous remote employment a plus)&lt;/li&gt;&lt;li&gt;Fluent
+        in English&lt;/li&gt;&lt;/ul&gt;&lt;div class=&quot;paragraph_break&quot;&gt;&lt;br
+        /&gt;&lt;/div&gt;&lt;div&gt;Bonuses:&lt;/div&gt;&lt;ul&gt;&lt;li&gt;Fluent
+        in Spanish, German, French, Dutch, Japanese or Italian&lt;/li&gt;&lt;li&gt;Expert-level
+        experience with Carbon Copy Cloner&lt;/li&gt;&lt;/ul&gt;&lt;div class=&quot;paragraph_break&quot;&gt;&lt;br
+        /&gt;&lt;/div&gt;&lt;div&gt;What you'll be doing:&lt;/div&gt;&lt;ul&gt;&lt;li&gt;Perform
+        day-to-day bugfixes and improvements&lt;/li&gt;&lt;li&gt;Be a part of the&amp;nbsp;entire
+        app life cycle - concept, design, build, deploy, test, release and support&lt;/li&gt;&lt;li&gt;Assist
+        with&amp;nbsp;new feature development&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;&amp;nbsp;&lt;/div&gt;&lt;div&gt;What's
+        in it for you:&lt;/div&gt;&lt;ul&gt;&lt;li&gt;$110K+ salary&lt;/li&gt;&lt;li&gt;Medical
+        insurance stipend&lt;/li&gt;&lt;li&gt;Disability and Life Insurance&lt;/li&gt;&lt;li&gt;401k
+        with matching company contribution&lt;/li&gt;&lt;li&gt;The most up-to-date
+        technology, including company-issued Macs, the latest software and other tools
+        needed to excel at your job&lt;/li&gt;&lt;li&gt;A really comfy chair and desk&lt;/li&gt;&lt;li&gt;Company-paid
+        conferences and extended learning&lt;/li&gt;&lt;li&gt;Yearly company gatherings&lt;/li&gt;&lt;li&gt;Generous
+        PTO&lt;/li&gt;&lt;li&gt;Flexible, remote work environment&lt;/li&gt;&lt;li&gt;Small,
+        tight-knit team&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;strong&gt;Outsourcing
+        development companies and non-US work eligible applicants need not apply.&lt;/strong&gt;&lt;/div&gt;&lt;div
+        class=&quot;paragraph_break&quot;&gt;&lt;br /&gt;&lt;/div&gt;\n\n\n&lt;p&gt;&lt;strong&gt;To
+        apply:&lt;/strong&gt; Apply at &lt;a href=&quot;https://bombich.recruiterbox.com/jobs/fk0g6l&quot;&gt;https://bombich.recruiterbox.com/jobs/fk0g6l&lt;/a&gt;&lt;/p&gt;\n</description>\n
+        \     <pubDate>Fri, 07 Nov 2014 20:12:06 +0000</pubDate>\n      <guid>https://weworkremotely.com/jobs/1063</guid>\n
+        \     <link>https://weworkremotely.com/jobs/1063</link>\n    </item>\n    <item>\n
+        \     <title>Help Scout: Java Software Engineer</title>\n      <description>&lt;img
+        alt=&quot;Resized_logo&quot; src=&quot;https://dge9rmgqjs8m1.cloudfront.net/wwr_s3/logos/0000/1686/logo.gif/resized_logo.png?r=3&quot;
+        /&gt;\n\n&lt;p&gt;\n  &lt;strong&gt;Location:&lt;/strong&gt; Boston, MA\n
+        \   &lt;br /&gt;&lt;strong&gt;URL:&lt;/strong&gt; &lt;a href=&quot;http://www.helpscout.net&quot;&gt;http://www.helpscout.net&lt;/a&gt;\n&lt;/p&gt;\n\n&lt;div&gt;The
+        ideal engineer for this position loves managing APIs and other web services
+        at scale. You relish the opportunity to take on a challenging problem, choose
+        the right tool for the job and build an elegant, scalable solution.&lt;/div&gt;&lt;div
+        class=&quot;paragraph_break&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;Our
+        engineering team is small (7), remote and responsible for supporting the code
+        they write (talking to customers). There is no dedicated QA team.&amp;nbsp;Due
+        to our size, Help Scout is not the right fit for entry-level or junior engineers
+        at this time.&lt;/div&gt;&lt;div class=&quot;paragraph_break&quot;&gt;&lt;br
+        /&gt;&lt;/div&gt;&lt;div&gt;&lt;strong&gt;Some of the tools we use&lt;/strong&gt;&lt;/div&gt;&lt;ul&gt;&lt;li&gt;Java
+        7 and 8&lt;/li&gt;&lt;li&gt;Play framework&lt;/li&gt;&lt;li&gt;MySQL,&amp;nbsp;MongoDB.
+        Solr&lt;/li&gt;&lt;li&gt;RabbitMQ&lt;/li&gt;&lt;li&gt;Git&lt;/li&gt;&lt;li&gt;PHP&lt;/li&gt;&lt;li&gt;Javascript
+        (Backbone &amp;amp; Marionette)&lt;/li&gt;&lt;/ul&gt;&lt;div class=&quot;paragraph_break&quot;&gt;&lt;br
+        /&gt;&lt;/div&gt;&lt;div&gt;&lt;strong&gt;About the Role&lt;/strong&gt;&lt;/div&gt;&lt;ul&gt;&lt;li&gt;You'll
+        build/maintain the Help Scout APIs alongside one other engineer on the team.
+        Your world includes everything from documentation to new endpoints and performance
+        optimization. All new product features are built on the APIs and we'd like
+        them to be a pleasure for developers to use as well.&lt;/li&gt;&lt;li&gt;The
+        team consists of 7 senior-level engineers. Aside from a couple of weekly check-ins
+        or project updates, you'll be able to work interruption-free. 90% of our communication
+        happens over chat.&lt;/li&gt;&lt;li&gt;You'll be working with product people.
+        The founders are technical and committed to creating a magical experience
+        for customers. You'll deploy high quality work that moves the needle for businesses
+        around the world.&lt;/li&gt;&lt;/ul&gt;&lt;div class=&quot;paragraph_break&quot;&gt;&lt;br
+        /&gt;&lt;/div&gt;&lt;div&gt;&lt;strong&gt;About You&lt;/strong&gt;&lt;/div&gt;&lt;ul&gt;&lt;li&gt;You
+        became an engineer because you like writing software that helps people.&lt;/li&gt;&lt;li&gt;You
+        have a history of working on products at scale and can bring a high level
+        of expertise to the business.&lt;/li&gt;&lt;li&gt;Your code is not only a
+        pleasure for customers to use, but for other engineers to read and understand
+        easily.&lt;/li&gt;&lt;li&gt;You can speak and write in terms that non-geeks
+        can understand clearly, whether it be in a conference call, blog post or support
+        email.&lt;/li&gt;&lt;/ul&gt;&lt;div class=&quot;paragraph_break&quot;&gt;&lt;br
+        /&gt;&lt;/div&gt;&lt;div&gt;&lt;strong&gt;Benefits&lt;/strong&gt;&lt;br /&gt;&lt;/div&gt;&lt;ul&gt;&lt;li&gt;Work
+        anywhere&amp;nbsp;- work from our office in Boston or anywhere else, provided
+        you have 4 hours of overlap with the team&lt;/li&gt;&lt;li&gt;Health &amp;amp;
+        dental&amp;nbsp;- we cover you and your family's health/dental insurance 100%&lt;/li&gt;&lt;li&gt;Flexible
+        vacation&amp;nbsp;- take time off when you need it, we trust you&lt;/li&gt;&lt;li&gt;Great
+        tools&amp;nbsp;- each employee needs a Mac laptop and 27' display, so we'll
+        get you what you need&lt;/li&gt;&lt;li&gt;Complete transparency&lt;strong&gt;&amp;nbsp;&lt;/strong&gt;-
+        everyone has full access to business metrics and financial information about
+        the company&lt;/li&gt;&lt;/ul&gt;\n\n\n&lt;p&gt;&lt;strong&gt;To apply:&lt;/strong&gt;
+        Start here- &lt;a href=&quot;http://help-scout.workable.com/jobs/24579&quot;&gt;http://help-scout.workable.com/jobs/24579&lt;/a&gt;&lt;/p&gt;\n</description>\n
+        \     <pubDate>Fri, 07 Nov 2014 20:07:58 +0000</pubDate>\n      <guid>https://weworkremotely.com/jobs/1062</guid>\n
+        \     <link>https://weworkremotely.com/jobs/1062</link>\n    </item>\n    <item>\n
+        \     <title>112 TECH: Team Webmaster </title>\n      <description>\n\n&lt;p&gt;\n
+        \ &lt;strong&gt;Location:&lt;/strong&gt; Can Work from Home \n    &lt;br /&gt;&lt;strong&gt;URL:&lt;/strong&gt;
+        &lt;a href=&quot;http://www.112tech.com&quot;&gt;www.112tech.com&lt;/a&gt;\n&lt;/p&gt;\n\n&lt;div&gt;We
+        are looking for a &lt;strong&gt;motivated webmaster&lt;/strong&gt; who enjoys
+        \r\nthe benefits of working from home. We are an experienced, driven and \r\ntightly-knit
+        company with a team spread across many countries.&lt;br /&gt;&lt;/div&gt;&lt;div&gt;This
+        position is for a webmaster who will be a key part of the team responsible
+        for working to &lt;strong&gt;build, expand and improve the company's network
+        of websites&lt;/strong&gt;.&lt;/div&gt;&lt;div class=&quot;paragraph_break&quot;&gt;&lt;br
+        /&gt;&lt;/div&gt;&lt;div&gt;Job duties for this position include:&lt;/div&gt;&lt;ul&gt;&lt;li&gt;Editing
+        current websites utilizing html, php, css&lt;/li&gt;&lt;li&gt;Creating new
+        websites by working with design, writing and markup teams to combine elements&lt;/li&gt;&lt;li&gt;Updating
+        content in html as well as custom cms&lt;/li&gt;&lt;li&gt;Recognizing\r\n
+        opportunities for improvement of current websites including SEO, code \r\nimprovements,
+        content improvements and other general updates&lt;/li&gt;&lt;li&gt;Working
+        closely with designers, coders and writers to update websites and help organize
+        the creation of new websites&lt;/li&gt;&lt;li&gt;Brainstorming for new, unique
+        ideas to improve our sites or expand our network&lt;/li&gt;&lt;/ul&gt;&lt;div
+        class=&quot;paragraph_break&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;The
+        person in this position should be &lt;strong&gt;self-motivated, well-organized,
+        a team player, and detail-oriented&lt;/strong&gt;.\r\n Must be willing to
+        give and accept positive criticism and be willing to\r\n try new ideas, learn
+        new skills and experiment with different ways of \r\naccomplishing tasks.
+        The ability to work independently is also very \r\nimportant as the person
+        in this position will be working from their home\r\n office. They must be
+        able to take on a task and see it through, often \r\nwithout immediate input
+        from other team members. With this in mind, time\r\n management is also an
+        important skill. There will often be multiple \r\ntasks ongoing at the same
+        time and it will be up to each team member to \r\ncomplete their jobs on time
+        as to keep the work flowing.&lt;/div&gt;&lt;div class=&quot;paragraph_break&quot;&gt;&lt;br
+        /&gt;&lt;/div&gt;&lt;div&gt;Skills required include:&lt;/div&gt;&lt;ul&gt;&lt;li&gt;General
+        html, css, php, wordpress knowledge&lt;/li&gt;&lt;li&gt;Some understanding
+        of CMS/databases&lt;/li&gt;&lt;li&gt;Experience using FTP&lt;/li&gt;&lt;li&gt;Some
+        knowledge of basic website design&lt;/li&gt;&lt;li&gt;Image editing&lt;/li&gt;&lt;/ul&gt;&lt;div
+        class=&quot;paragraph_break&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;We\r\n
+        would like to know about your previous working experience and more \r\nparticularly
+        any office based work that you may have had, if you have \r\nhad any, please
+        detail.&lt;/div&gt;&lt;div&gt;Please also only apply if you are based in US
+        or European timezones.&lt;/div&gt;&lt;div class=&quot;paragraph_break&quot;&gt;&lt;br
+        /&gt;&lt;/div&gt;&lt;div&gt;WE ARE LOOKING FOR A COMMITTED TEAM MEMBER, WITHOUT
+        ANY OTHER WORK COMMITMENTS OR RESTRICTIONS THAT MAY PREVENT THEM FROM WORKING
+        FULL TIME I.E (RUN A SEPARATE COMPANY, FREELANCE FOR OTHER BUSINESSES ETC).&lt;/div&gt;&lt;div
+        class=&quot;paragraph_break&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;Thank
+        you for taking your time to read this post, we look forward to hearing from
+        you! &lt;br /&gt;&lt;/div&gt;\n\n\n&lt;p&gt;&lt;strong&gt;To apply:&lt;/strong&gt;
+        Please fill in your details and send your CV in to us via this link - &lt;a
+        href=&quot;https://112tech.theresumator.com/apply/rjD566/Team-Webmaster.html&quot;&gt;https://112tech.theresumator.com/apply/rjD566/Team-Webmaster.html&lt;/a&gt;
+        &lt;/p&gt;\n</description>\n      <pubDate>Fri, 07 Nov 2014 15:09:40 +0000</pubDate>\n
+        \     <guid>https://weworkremotely.com/jobs/1061</guid>\n      <link>https://weworkremotely.com/jobs/1061</link>\n
+        \   </item>\n    <item>\n      <title>Tradewave: CTO for a Cryptocurrency
+        Trading Platform</title>\n      <description>&lt;img alt=&quot;Resized_logo&quot;
+        src=&quot;https://dge9rmgqjs8m1.cloudfront.net/wwr_s3/logos/0000/1684/logo.gif/resized_logo.png?r=3&quot;
+        /&gt;\n\n&lt;p&gt;\n  &lt;strong&gt;Location:&lt;/strong&gt; London\n    &lt;br
+        /&gt;&lt;strong&gt;URL:&lt;/strong&gt; &lt;a href=&quot;https://tradewave.net&quot;&gt;https://tradewave.net&lt;/a&gt;\n&lt;/p&gt;\n\n&lt;div&gt;&lt;strong&gt;Role
+        has been filled. Thanks for the huge response!&lt;/strong&gt;&lt;/div&gt;\n\n\n&lt;p&gt;&lt;strong&gt;To
+        apply:&lt;/strong&gt; The role has been filled.&lt;/p&gt;\n</description>\n
+        \     <pubDate>Thu, 06 Nov 2014 18:26:20 +0000</pubDate>\n      <guid>https://weworkremotely.com/jobs/1059</guid>\n
+        \     <link>https://weworkremotely.com/jobs/1059</link>\n    </item>\n    <item>\n
+        \     <title>Isotope11: Senior Developer</title>\n      <description>\n\n&lt;p&gt;\n
+        \ &lt;strong&gt;Location:&lt;/strong&gt; Birmingham, AL\n    &lt;br /&gt;&lt;strong&gt;URL:&lt;/strong&gt;
+        &lt;a href=&quot;http://www.isotope11.com&quot;&gt;http://www.isotope11.com&lt;/a&gt;\n&lt;/p&gt;\n\n&lt;div&gt;We
+        are a wholly-remote software development firm looking for a full-time&lt;br
+        /&gt;&lt;/div&gt;&lt;div&gt;developer with the following skill sets (the more
+        the better):&lt;/div&gt;&lt;div class=&quot;paragraph_break&quot;&gt;&lt;br
+        /&gt;&lt;/div&gt;&lt;ul&gt;&lt;li&gt;Ruby / Rails&lt;/li&gt;&lt;li&gt;Linux
+        (around 50% of us use OS X, but you need to know your way around a server
+        and a command line)&lt;/li&gt;&lt;li&gt;Test Driven Development (we need you
+        to understand that tests are important)&lt;/li&gt;&lt;li&gt;PostgreSQL, etc.
+        experience (i.e. traditional RDBMS)&lt;/li&gt;&lt;li&gt;HTML, CSS, JS&lt;/li&gt;&lt;li&gt;git&lt;/li&gt;&lt;/ul&gt;&lt;div
+        class=&quot;paragraph_break&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;&lt;strong&gt;Bonus
+        Points&lt;/strong&gt;&lt;/div&gt;&lt;div class=&quot;paragraph_break&quot;&gt;&lt;br
+        /&gt;&lt;/div&gt;&lt;ul&gt;&lt;li&gt;AngularJS or Ember&lt;/li&gt;&lt;li&gt;Erlang
+        or Elixir&lt;/li&gt;&lt;li&gt;Android&lt;/li&gt;&lt;/ul&gt;&lt;div class=&quot;paragraph_break&quot;&gt;&lt;br
+        /&gt;&lt;/div&gt;&lt;div&gt;For fulltime employees we have full benefits including
+        health, life, short and&lt;/div&gt;&lt;div&gt;long term disability. Sick and
+        vacation paid time.&lt;/div&gt;&lt;div class=&quot;paragraph_break&quot;&gt;&lt;br
+        /&gt;&lt;/div&gt;&lt;div&gt;We've only been doing entirely-remote for around
+        four months, but we've really&lt;/div&gt;&lt;div&gt;enjoyed it. &amp;nbsp;We
+        all interact via Slack during the day, provide code reviews for various&lt;/div&gt;&lt;div&gt;projects
+        we aren't necessarily working on, and use Jenkins to run our CI.&lt;/div&gt;&lt;div
+        class=&quot;paragraph_break&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;We've
+        been around for 9 years and aren't going away. &amp;nbsp;We want applicants
+        that&lt;/div&gt;&lt;div&gt;care about code as craft. &amp;nbsp;If you can
+        help us write better software by reviewing&lt;/div&gt;&lt;div&gt;our code,
+        we want to hire you.&lt;/div&gt;\n\n\n&lt;p&gt;&lt;strong&gt;To apply:&lt;/strong&gt;
+        Please email resumes and/or portfolios to &lt;a href=&quot;&amp;#109;&amp;#97;&amp;#105;&amp;#108;&amp;#116;&amp;#111;&amp;#58;%69%6e%66%6f@%69%73%6f%74%6f%70%65%31%31.%63%6f%6d&quot;&gt;info@isotope11.com&lt;/a&gt;&lt;/p&gt;\n</description>\n
+        \     <pubDate>Thu, 06 Nov 2014 16:13:20 +0000</pubDate>\n      <guid>https://weworkremotely.com/jobs/1058</guid>\n
+        \     <link>https://weworkremotely.com/jobs/1058</link>\n    </item>\n    <item>\n
+        \     <title>Gotham Tech Labs: Senior Software Engineer</title>\n      <description>\n\n&lt;p&gt;\n
+        \ &lt;strong&gt;Location:&lt;/strong&gt; NYC\n    &lt;br /&gt;&lt;strong&gt;URL:&lt;/strong&gt;
+        &lt;a href=&quot;http://www.gothamtechlabs.com&quot;&gt;http://www.gothamtechlabs.com&lt;/a&gt;\n&lt;/p&gt;\n\n&lt;div&gt;Location:
+        NYC or Remote&lt;/div&gt;&lt;div class=&quot;paragraph_break&quot;&gt;&lt;br
+        /&gt;&lt;/div&gt;&lt;div&gt;We're looking for an experienced full-stack engineer
+        to join our growing team and expand both our current products and help us
+        create new products in 2015. Our next team member has a passion for UX and
+        loves to architect, build, ship, and maintain web and mobile apps.&lt;/div&gt;&lt;div
+        class=&quot;paragraph_break&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;Gotham
+        Tech Labs are the makers of Wealthbox, a web-and-mobile CRM app for financial
+        professionals, and Wealthbase, an inbound marketing network for consumers
+        to connect with financial advisors, launching next year. We&#8217;re well-funded
+        and founded by managers with great track records.&lt;/div&gt;&lt;div class=&quot;paragraph_break&quot;&gt;&lt;br
+        /&gt;&lt;/div&gt;&lt;div&gt;Requirements &amp;amp; Skills&lt;/div&gt;&lt;ul&gt;&lt;li&gt;3+
+        years of full-stack Ruby-on-Rails development&lt;/li&gt;&lt;li&gt;Previous
+        experience maintaining a production Rails application&lt;/li&gt;&lt;li&gt;Focus
+        on writing clear, maintainable, tested code&lt;/li&gt;&lt;li&gt;Distributed
+        version control, continuous integration and regular deployments&lt;/li&gt;&lt;li&gt;Strong
+        understanding and appreciation of UX and usability&lt;/li&gt;&lt;li&gt;AWS
+        (e.g. EC2, S3, CloudFront)&lt;/li&gt;&lt;li&gt;Ability to clearly communicate
+        with integration partners and customers&lt;/li&gt;&lt;li&gt;Experience with
+        Angular/Backbone/Ember a plus&lt;/li&gt;&lt;/ul&gt;&lt;div class=&quot;paragraph_break&quot;&gt;&lt;br
+        /&gt;&lt;/div&gt;&lt;div&gt;Benefits&lt;br /&gt;&lt;/div&gt;&lt;ul&gt;&lt;li&gt;Competitive
+        salary and stock options&lt;/li&gt;&lt;li&gt;Excellent health plan coverage&lt;/li&gt;&lt;li&gt;Work
+        remote or on-site&lt;/li&gt;&lt;li&gt;Paid time off&lt;/li&gt;&lt;li&gt;Occasional
+        travel to NYC&lt;/li&gt;&lt;/ul&gt;&lt;div class=&quot;paragraph_break&quot;&gt;&lt;br
+        /&gt;&lt;/div&gt;&lt;div&gt;Interested in joining us? Include a note, your
+        resume (or LinkedIn profile), and links to recent work. Thanks!&lt;/div&gt;\n\n\n&lt;p&gt;&lt;strong&gt;To
+        apply:&lt;/strong&gt; Send an email to &lt;a href=&quot;&amp;#109;&amp;#97;&amp;#105;&amp;#108;&amp;#116;&amp;#111;&amp;#58;%6a%6f%62%73@%67%6f%74%68%61%6d%74%65%63%68%6c%61%62%73.%63%6f%6d&quot;&gt;jobs@gothamtechlabs.com&lt;/a&gt;&lt;/p&gt;\n</description>\n
+        \     <pubDate>Wed, 05 Nov 2014 20:53:43 +0000</pubDate>\n      <guid>https://weworkremotely.com/jobs/1054</guid>\n
+        \     <link>https://weworkremotely.com/jobs/1054</link>\n    </item>\n    <item>\n
+        \     <title>Inside.com: Ruby &amp; Front-End Web Developer</title>\n      <description>&lt;img
+        alt=&quot;Resized_logo&quot; src=&quot;https://dge9rmgqjs8m1.cloudfront.net/wwr_s3/logos/0000/1680/logo.gif/resized_logo.png?r=3&quot;
+        /&gt;\n\n&lt;p&gt;\n  &lt;strong&gt;Location:&lt;/strong&gt; San Francisco,
+        CA\n    &lt;br /&gt;&lt;strong&gt;URL:&lt;/strong&gt; &lt;a href=&quot;http://www.inside.com&quot;&gt;http://www.inside.com&lt;/a&gt;\n&lt;/p&gt;\n\n&lt;div&gt;Inside.com
+        is looking for a&amp;nbsp;&lt;strong&gt;Senior Front-End Rails Developer&lt;/strong&gt;.
+        Daily work will include lots of javascript or coffee script, along with&amp;nbsp;&lt;strong&gt;Backbone
+        &amp;amp; Marionette&lt;/strong&gt;. We are looking for a motivated and talented
+        individual to work with us either onsite in San Francisco, CA or remote -
+        your choice! Remote position is open to US based individuals only and will
+        require 2-3 weeks of travel per year. This is a permanent position so we are
+        currently not interested in freelancers, agencies, or recruiters.&amp;nbsp;&lt;/div&gt;&lt;div
+        class=&quot;paragraph_break&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;&lt;strong&gt;&lt;strong&gt;The
+        ideal developer would have experience with most of the following:&lt;/strong&gt;&lt;/strong&gt;&lt;/div&gt;&lt;div
+        class=&quot;paragraph_break&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;ul&gt;&lt;li&gt;Ruby
+        &amp;amp; Ruby on Rails&lt;/li&gt;&lt;li&gt;Git &amp;amp; Github&lt;/li&gt;&lt;li&gt;Rails
+        Asset Pipeline or other asset compilation systems&lt;/li&gt;&lt;li&gt;HAML
+        and HTML5&lt;/li&gt;&lt;li&gt;SCSS and CSS3&amp;nbsp;(using Compass)&lt;/li&gt;&lt;li&gt;CoffeeScript
+        &amp;amp; a thorough understanding of Javascript&lt;/li&gt;&lt;li&gt;CSS frameworks
+        such as Foundation by Zurb or Twitter Bootstrap&lt;/li&gt;&lt;li&gt;jQuery,
+        Underscore, Modernizr&lt;/li&gt;&lt;li&gt;Backbone.js with Marionette&lt;/li&gt;&lt;li&gt;MongoDB&lt;/li&gt;&lt;li&gt;BDD
+        (using Rspec, Spinach, Jasmine etc)&lt;/li&gt;&lt;li&gt;Cross browser Compatibility&lt;/li&gt;&lt;li&gt;Responsive
+        design implementation&lt;/li&gt;&lt;/ul&gt;&lt;div class=&quot;paragraph_break&quot;&gt;&lt;br
+        /&gt;&lt;/div&gt;&lt;div&gt;Deep experience with Ruby/Rails and Backbone/Marionette
+        are the keys for success in this role.&amp;nbsp;Responsibilities will include
+        helping us architect and implement our front end stack, integrating with our
+        API layer, implementing standards compliant html, well organized SCSS, and
+        working throughout our Rails stack on various admin and consumer facing applications.&lt;/div&gt;&lt;div
+        class=&quot;paragraph_break&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;&lt;strong&gt;Benefits
+        and Perks&lt;/strong&gt;&lt;/div&gt;&lt;div class=&quot;paragraph_break&quot;&gt;&lt;br
+        /&gt;&lt;/div&gt;&lt;ul&gt;&lt;li&gt;Stock options&lt;/li&gt;&lt;li&gt;Health
+        benefits&lt;/li&gt;&lt;li&gt;Paid time off (PTO)&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;&lt;strong&gt;&lt;br
+        /&gt;&lt;/strong&gt;&lt;/div&gt;&lt;div&gt;&lt;strong&gt;About Inside&lt;/strong&gt;&lt;br
+        /&gt;&lt;/div&gt;&lt;div&gt;Inside is focused on connecting readers to the
+        best journalism in the world. A real-time mobile news app, Inside is designed
+        to be the most efficient way to stay informed on the most important and fascinating
+        news events while on the go. Begin your news reading experience by downloading
+        Inside at&amp;nbsp;&lt;a href=&quot;http://blog.inside.com&quot;&gt;http://blog.inside.com&lt;/a&gt;.
+        You can learn more about the team at &lt;a href=&quot;http://blog.inside.com/team&#160;or&quot;&gt;http://blog.inside.com/team&lt;/a&gt;&amp;nbsp;or
+        follow us on twitter&amp;nbsp;&lt;a href=&quot;https://twitter.com/inside&quot;&gt;https://twitter.com/inside&lt;/a&gt;.
+        We are well funded, and our investors include Sequoia Capital, Newscorp, Mark
+        Cuban, Elon Musk and CBS Corp.&amp;nbsp;We value diversity in the workplace
+        and are an EOE/AA employer.&lt;/div&gt;&lt;div class=&quot;paragraph_break&quot;&gt;&lt;br
+        /&gt;&lt;/div&gt;&lt;ul&gt;&lt;/ul&gt;\n\n\n&lt;p&gt;&lt;strong&gt;To apply:&lt;/strong&gt;
+        Apply at &lt;a href=&quot;http://jobs.inside.com/apply/Ana3dO/Ruby-FrontEnd-Web-Developer.html&quot;&gt;http://jobs.inside.com/apply/Ana3dO/Ruby-FrontEnd-Web-Developer.html&lt;/a&gt;&lt;/p&gt;\n</description>\n
+        \     <pubDate>Wed, 05 Nov 2014 18:49:02 +0000</pubDate>\n      <guid>https://weworkremotely.com/jobs/1053</guid>\n
+        \     <link>https://weworkremotely.com/jobs/1053</link>\n    </item>\n    <item>\n
+        \     <title>SumOfUs: Junior Software Developer</title>\n      <description>&lt;img
+        alt=&quot;Resized_logo&quot; src=&quot;https://dge9rmgqjs8m1.cloudfront.net/wwr_s3/logos/0000/1679/logo.gif/resized_logo.png?r=3&quot;
+        /&gt;\n\n&lt;p&gt;\n  &lt;strong&gt;Location:&lt;/strong&gt; New York, NY\n
+        \   &lt;br /&gt;&lt;strong&gt;URL:&lt;/strong&gt; &lt;a href=&quot;http://www.sumofus.org&quot;&gt;http://www.sumofus.org&lt;/a&gt;\n&lt;/p&gt;\n\n&lt;div&gt;The
+        Role:&lt;/div&gt;&lt;div&gt;You&#8217;re smart, hungry and excited about getting
+        out into the world of software development. Maybe this is your first job building
+        software, maybe you&#8217;re thinking about changing careers or maybe you&#8217;ve
+        got a little bit of experience, but whichever way, the idea of using and building
+        your skills as a Junior Software Developer to build a more just and sustainable
+        global economy is the kind of opportunity that makes you excited about getting
+        up for work in the morning.&lt;/div&gt;&lt;div class=&quot;paragraph_break&quot;&gt;&lt;br
+        /&gt;&lt;/div&gt;&lt;div&gt;SumOfUs.org is hiring a Junior Software Developer
+        to help us build a world-class technology platform in the service of our mission.
+        We are thought leaders in the digital campaigning space, and we&#8217;re looking
+        for a technologist who wants to push boundaries while also improving our current
+        platform and tools.&lt;/div&gt;&lt;div class=&quot;paragraph_break&quot;&gt;&lt;br
+        /&gt;&lt;/div&gt;&lt;div&gt;You will:&lt;br /&gt;&lt;/div&gt;&lt;ul&gt;&lt;li&gt;Develop
+        new features for our website working under the guidance of management or senior
+        developers;&lt;/li&gt;&lt;li&gt;Communicate with the broader organisation
+        while working on new features;&lt;/li&gt;&lt;li&gt;Fix software bugs with
+        help from management or senior developers.&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;If
+        you&#8217;re looking for a place to use cutting-edge technology to drive deep
+        social change, this is the job for you.&lt;/div&gt;&lt;div class=&quot;paragraph_break&quot;&gt;&lt;br
+        /&gt;&lt;/div&gt;&lt;div&gt;We need someone who:&lt;br /&gt;&lt;/div&gt;&lt;div&gt;&lt;strong&gt;Organizational
+        Fit&lt;/strong&gt;&lt;br /&gt;&lt;/div&gt;&lt;ul&gt;&lt;li&gt;Is just as excited
+        about our mission and culture as she is about technology;&lt;/li&gt;&lt;li&gt;Is
+        still building her technical vocabulary, and is ready and willing to learn
+        how to bridge the gap between developers and non-technical staff;&lt;/li&gt;&lt;li&gt;Is
+        excited about learning new technologies and techniques daily in a fast-paced
+        and engaging environment.&lt;/li&gt;&lt;/ul&gt;&lt;div class=&quot;paragraph_break&quot;&gt;&lt;br
+        /&gt;&lt;/div&gt;&lt;div&gt;&lt;strong&gt;Technical savvy&lt;/strong&gt;&lt;br
+        /&gt;&lt;/div&gt;&lt;ul&gt;&lt;li&gt;Is proficient in at least one major Object
+        Oriented programming language (examples: Java, C#, Python, Ruby);&lt;/li&gt;&lt;li&gt;Is
+        able to express a surface level understanding of the modern web development
+        stack: Database, Application Server, HTML, Javascript and CSS. She should
+        be able to talk about each of these parts of the stack, explain what they
+        do and how they fit together;&lt;/li&gt;&lt;li&gt;Has a strong desire to grow
+        and learn.&lt;/li&gt;&lt;/ul&gt;&lt;div class=&quot;paragraph_break&quot;&gt;&lt;br
+        /&gt;&lt;/div&gt;&lt;div&gt;&lt;strong&gt;Project and product development&lt;/strong&gt;&lt;br
+        /&gt;&lt;/div&gt;&lt;ul&gt;&lt;li&gt;Rapidly prototypes, and isn&#8217;t afraid
+        to make and learn from mistakes while pushing technical boundaries;&lt;/li&gt;&lt;li&gt;Is
+        creative when it comes to brainstorming potential solutions to problems and
+        is willing to experiment when it comes to choosing a path forward;&lt;/li&gt;&lt;li&gt;Embraces
+        data-driven decision making in all aspects of the job: from design to user
+        workflow.&lt;/li&gt;&lt;/ul&gt;&lt;div class=&quot;paragraph_break&quot;&gt;&lt;br
+        /&gt;&lt;/div&gt;&lt;div&gt;&lt;strong&gt;Logistics&lt;/strong&gt;&lt;br /&gt;&lt;/div&gt;&lt;ul&gt;&lt;li&gt;Ability
+        to travel internationally 2-3 times/year;&lt;/li&gt;&lt;li&gt;Is fluent in
+        English;&lt;/li&gt;&lt;li&gt;Located in/willing to move to a timezone that
+        allows for easy engagement with North American and Europe-based SumOfUs staff
+        and technical providers -- preferably between Central Europe and US West Coast.
+        (We currently work with team members who are based in timezones between Vancouver
+        and London.)&lt;/li&gt;&lt;/ul&gt;&lt;div class=&quot;paragraph_break&quot;&gt;&lt;br
+        /&gt;&lt;/div&gt;&lt;div&gt;&lt;strong&gt;Big pluses include:&lt;/strong&gt;&lt;/div&gt;&lt;ul&gt;&lt;li&gt;Demonstrated
+        proficiency in Python;&lt;/li&gt;&lt;li&gt;At least one published website
+        you can point us to;&lt;/li&gt;&lt;li&gt;Experience with the Django web development
+        framework;&lt;/li&gt;&lt;li&gt;Understanding of SQL and data storage systems;&lt;/li&gt;&lt;li&gt;Understanding
+        of ORM systems and how they&#8217;re used in modern web development;&lt;/li&gt;&lt;li&gt;Experience
+        in social change, advocacy or campaigning;&lt;/li&gt;&lt;li&gt;Mobile web
+        development (responsive design) experience;&lt;/li&gt;&lt;li&gt;Experience
+        working on building a CRM and/or CMS;&lt;/li&gt;&lt;li&gt;Experience with
+        high-traffic/bursty websites;&lt;/li&gt;&lt;li&gt;Prior experience working
+        on a remote team;&lt;/li&gt;&lt;li&gt;Experience living or working in multiple
+        regions of the world.&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;(Yes, this is a big
+        list, but you don't need to have all of these to apply -- we expect the successful
+        candidate will have just two or three of our big plusses!) &amp;nbsp;&lt;/div&gt;&lt;div
+        class=&quot;paragraph_break&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;&lt;strong&gt;Compensation
+        &amp;amp; Benefits&lt;/strong&gt;&lt;/div&gt;&lt;div&gt;Compensation is competitive
+        for the advocacy sector and will be determined based on a combination of seniority
+        and the region you live in. For some context: This position in a major UK
+        city like London would likely pay in the range of GBP 41,000-46,000 depending
+        on experience and seniority; the compensation level will be adjusted in other
+        regions based on cost of living. In Buenos Aires, this role would likely pay
+        between ARS 423.000 and 473.000.&lt;/div&gt;&lt;div class=&quot;paragraph_break&quot;&gt;&lt;br
+        /&gt;&lt;/div&gt;&lt;div&gt;We offer a total of 39 paid days off, including
+        both vacation and your national holidays (plus additional sick leave and carer&#8217;s
+        leave), contributions to retirement funds, and the ability to work from home
+        and set your own hours. We cover 100% of a private health insurance premium
+        for staff and dependents who live in countries without public insurance. As
+        a start-up, we are still establishing policies around staff benefits -- in
+        particular, around time off for professional development, maternity/paternity
+        leave, and others. Bottom line: you can be assured we treat our staff fairly,
+        if only because we campaign against corporations that don&#8217;t.&lt;/div&gt;&lt;div
+        class=&quot;paragraph_break&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;The
+        Junior Software Developer will report to the Director of Engineering.&lt;/div&gt;&lt;div
+        class=&quot;paragraph_break&quot;&gt;&lt;br /&gt;&lt;/div&gt;\n\n\n&lt;p&gt;&lt;strong&gt;To
+        apply:&lt;/strong&gt; Visit: &lt;a href=&quot;https://sumofus.recruiterbox.com/jobs/fk04e6&quot;&gt;https://sumofus.recruiterbox.com/jobs/fk04e6&lt;/a&gt;&lt;/p&gt;\n</description>\n
+        \     <pubDate>Wed, 05 Nov 2014 15:54:08 +0000</pubDate>\n      <guid>https://weworkremotely.com/jobs/1052</guid>\n
+        \     <link>https://weworkremotely.com/jobs/1052</link>\n    </item>\n    <item>\n
+        \     <title>SumOfUs: Software Developer</title>\n      <description>&lt;img
+        alt=&quot;Resized_logo&quot; src=&quot;https://dge9rmgqjs8m1.cloudfront.net/wwr_s3/logos/0000/1677/logo.gif/resized_logo.png?r=3&quot;
+        /&gt;\n\n&lt;p&gt;\n  &lt;strong&gt;Location:&lt;/strong&gt; New York, NY\n
+        \   &lt;br /&gt;&lt;strong&gt;URL:&lt;/strong&gt; &lt;a href=&quot;http://www.sumofus.org&quot;&gt;http://www.sumofus.org&lt;/a&gt;\n&lt;/p&gt;\n\n&lt;div&gt;You&#8217;ve
+        spent some time slinging code. You&#8217;ve got a few projects under your
+        belt. You&#8217;re good enough to be embarrassed about the code you wrote
+        last year, and you&#8217;re smart enough to know that you&#8217;re going to
+        feel the same way about the code you&#8217;re writing today. You&#8217;re
+        excited about your future and you&#8217;d love to have the opportunity to
+        combine your passion for writing quality software with your passion for building
+        a more just and sustainable global economy.&lt;/div&gt;&lt;div class=&quot;paragraph_break&quot;&gt;&lt;br
+        /&gt;&lt;/div&gt;&lt;div&gt;SumOfUs.org is hiring a Software Developer to
+        help build a world-class technology platform in the service of our mission.
+        We are thought leaders in the digital campaigning space, and we&#8217;re looking
+        for a technologist who wants to push boundaries while also improving our current
+        platform and tools.&lt;/div&gt;&lt;div class=&quot;paragraph_break&quot;&gt;&lt;br
+        /&gt;&lt;/div&gt;&lt;div&gt;You will:&lt;br /&gt;&lt;/div&gt;&lt;ul&gt;&lt;li&gt;Independently
+        own individual feature upgrades, implementing them without significant guidance
+        from management or senior developers;&lt;/li&gt;&lt;li&gt;Provide input on
+        design and feature discussions for the product roadmap;&lt;/li&gt;&lt;li&gt;Identify
+        potential sources for bugs and fix them without input from senior developers
+        or management.&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;If you&#8217;re looking for
+        a place to use cutting-edge technology to drive deep social change, this is
+        the job for you.&lt;/div&gt;&lt;div class=&quot;paragraph_break&quot;&gt;&lt;br
+        /&gt;&lt;/div&gt;&lt;div&gt;We need someone who:&lt;/div&gt;&lt;div&gt;&lt;strong&gt;Organisational
+        Fit&lt;/strong&gt;&lt;br /&gt;&lt;/div&gt;&lt;ul&gt;&lt;li&gt;Is just as excited
+        about our mission and culture as she is about technology;&lt;/li&gt;&lt;li&gt;Has
+        a broad understanding of technology, and is able to have fruitful conversations
+        about technology with non-technical people;&lt;/li&gt;&lt;li&gt;Is ready to
+        hone her skills and apply hard-won lessons to help build the future of digital
+        campaigning.&lt;/li&gt;&lt;/ul&gt;&lt;div class=&quot;paragraph_break&quot;&gt;&lt;br
+        /&gt;&lt;/div&gt;&lt;div&gt;&lt;strong&gt;Technical savvy&lt;/strong&gt;&lt;br
+        /&gt;&lt;/div&gt;&lt;ul&gt;&lt;li&gt;Has a basic portfolio which shows some
+        of your coding experience and/or at least one shipped product she was a part
+        of developing;&lt;/li&gt;&lt;li&gt;An intimate understanding of an MVC development
+        stack - she should be able to talk through each part of a MVC architecture
+        and explain why each piece is important as well as explain how it interacts
+        with the other pieces;&lt;/li&gt;&lt;li&gt;Understanding of SQL and data storage
+        systems;&lt;/li&gt;&lt;li&gt;Has a strong desire to grow and learn.&lt;/li&gt;&lt;/ul&gt;&lt;div
+        class=&quot;paragraph_break&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;&lt;strong&gt;Project
+        and product development&lt;/strong&gt;&lt;br /&gt;&lt;/div&gt;&lt;ul&gt;&lt;li&gt;Rapidly
+        prototypes, and isn&#8217;t afraid to make and learn from mistakes while pushing
+        technical boundaries;&lt;/li&gt;&lt;li&gt;Is creative when it comes to brainstorming
+        potential solutions to problems and is willing to experiment when it comes
+        to choosing a path forward;&lt;/li&gt;&lt;li&gt;Strong technical and non-technical
+        communication skills;&lt;/li&gt;&lt;li&gt;Embraces data-driven decision making
+        in all aspects of the job: from design to user workflow.&lt;/li&gt;&lt;/ul&gt;&lt;div
+        class=&quot;paragraph_break&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;&lt;strong&gt;Logistics&lt;/strong&gt;&lt;br
+        /&gt;&lt;/div&gt;&lt;ul&gt;&lt;li&gt;Ability to travel internationally 2-3
+        times/year;&lt;/li&gt;&lt;li&gt;Is fluent in English;&lt;/li&gt;&lt;li&gt;Located
+        in/willing to move to a timezone that allows for easy engagement with North
+        American and Europe-based SumOfUs staff and technical providers -- preferably
+        between Central Europe and US West Coast. (We currently work with team members
+        who are based in timezones between Vancouver and Tel Aviv.)&lt;/li&gt;&lt;/ul&gt;&lt;div
+        class=&quot;paragraph_break&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;&lt;strong&gt;Big
+        pluses include:&lt;/strong&gt;&lt;/div&gt;&lt;ul&gt;&lt;li&gt;Demonstrated
+        proficiency in Python;&lt;/li&gt;&lt;li&gt;A quality GitHub/Bitbucket/etc
+        account which shows existing code projects;&lt;/li&gt;&lt;li&gt;Shipped contributions
+        to open source development projects;&lt;/li&gt;&lt;li&gt;Experience with the
+        Django web development framework;&lt;/li&gt;&lt;li&gt;Demonstrated proficiency
+        writing and debugging SQL queries;&lt;/li&gt;&lt;li&gt;Experience working
+        with large and/or complicated database structures;&lt;/li&gt;&lt;li&gt;The
+        ability to design database structures for ease of use, speed and efficiency;&lt;/li&gt;&lt;li&gt;Quality
+        understanding of ORM systems and how they&#8217;re used in modern web development;&lt;/li&gt;&lt;li&gt;A
+        knack for developing attractive, easy to use User Interfaces;&lt;/li&gt;&lt;li&gt;A
+        focus on building quality, intuitive user experiences into every step of your
+        software.&lt;/li&gt;&lt;li&gt;Experience in social change, advocacy or campaigning;&lt;/li&gt;&lt;li&gt;Familiarity
+        with the business and campaigning models of big digital social change organizations
+        and platforms - perhaps GetUp in Australia or Campact in Germany or even Avaaz
+        or Change.org globally.&lt;/li&gt;&lt;li&gt;Mobile web development (responsive
+        design) experience;&lt;/li&gt;&lt;li&gt;Mobile application development experience;&lt;/li&gt;&lt;li&gt;The
+        demonstrated ability to work in a number of different programming languages;&lt;/li&gt;&lt;li&gt;Experience
+        working on building a CRM and/or CMS;&lt;/li&gt;&lt;li&gt;Experience with
+        high-traffic/bursty websites;&lt;/li&gt;&lt;li&gt;Prior experience working
+        on a remote team;&lt;/li&gt;&lt;li&gt;Experience living or working in multiple
+        regions of the world;&lt;/li&gt;&lt;li&gt;Fluency in at least one non-English
+        language.&lt;/li&gt;&lt;/ul&gt;&lt;div class=&quot;paragraph_break&quot;&gt;&lt;br
+        /&gt;&lt;/div&gt;&lt;div&gt;&lt;strong&gt;Compensation &amp;amp; Benefits&lt;/strong&gt;&lt;/div&gt;&lt;div&gt;Compensation
+        is competitive for the advocacy sector and will be determined based on a combination
+        of seniority and the region you live in. For some context: This position in
+        a major UK city like London would likely pay in the range of GBP 53,000 -
+        60,0000 depending on experience and seniority; the compensation level will
+        be adjusted in other regions based on cost of living. In Buenos Aires, this
+        role would likely pay in the range of ARS 547.000-622.000.&lt;/div&gt;&lt;div
+        class=&quot;paragraph_break&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;We
+        offer a total of 39 paid days off, including both vacation and your national
+        holidays (plus additional sick leave and carer&#8217;s leave), contributions
+        to retirement, and the ability to work from home and set your own hours. We
+        cover 100% of a private health insurance premium for employees and dependents
+        who live in countries without public insurance. As a start-up, we are still
+        establishing policies around staff benefits -- in particular, around time
+        off for professional development, maternity/paternity leave, and others. Bottom
+        line: you can be assured we treat our staff fairly, if only because we campaign
+        against corporations that don&#8217;t.&lt;/div&gt;&lt;div class=&quot;paragraph_break&quot;&gt;&lt;br
+        /&gt;&lt;/div&gt;&lt;div&gt;The Software Developer will report to the Director
+        of Engineering.&lt;/div&gt;&lt;div class=&quot;paragraph_break&quot;&gt;&lt;br
+        /&gt;&lt;/div&gt;\n\n\n&lt;p&gt;&lt;strong&gt;To apply:&lt;/strong&gt; Apply
+        at &lt;a href=&quot;https://sumofus.recruiterbox.com/jobs/fk04e1&quot;&gt;https://sumofus.recruiterbox.com/jobs/fk04e1&lt;/a&gt;&lt;/p&gt;\n</description>\n
+        \     <pubDate>Wed, 05 Nov 2014 15:50:10 +0000</pubDate>\n      <guid>https://weworkremotely.com/jobs/1051</guid>\n
+        \     <link>https://weworkremotely.com/jobs/1051</link>\n    </item>\n    <item>\n
+        \     <title>Leadformance: Ruby on Rails Developer - Remote Contractors Welcome</title>\n
+        \     <description>&lt;img alt=&quot;Resized_logo&quot; src=&quot;https://dge9rmgqjs8m1.cloudfront.net/wwr_s3/logos/0000/1675/logo.gif/resized_logo.png?r=3&quot;
+        /&gt;\n\n&lt;p&gt;\n  &lt;strong&gt;Location:&lt;/strong&gt; Chamb&#233;ry,
+        France\n    &lt;br /&gt;&lt;strong&gt;URL:&lt;/strong&gt; &lt;a href=&quot;http://www.leadformance.com/en/&quot;&gt;http://www.leadformance.com/en/&lt;/a&gt;\n&lt;/p&gt;\n\n&lt;div&gt;&lt;strong&gt;Contract
+        offered&lt;/strong&gt;: Full time&lt;/div&gt;&lt;div&gt;&lt;strong&gt;Location&lt;/strong&gt;:
+        Chamb&#233;ry, France or telecommute. We&#8217;re very used to remote collaboration
+        since most of the dev team is working remotely already. We&#8217;ll consider
+        any location in a European-ish timezone.&lt;/div&gt;&lt;div&gt;&lt;strong&gt;Experience
+        required&lt;/strong&gt;: Advanced, 3+ years&lt;/div&gt;&lt;div&gt;&lt;strong&gt;Language&lt;/strong&gt;:
+        English is required, we&#8217;re a french company but all communication is
+        in english, some of our developers/designers don&#8217;t speak french.&lt;/div&gt;&lt;div
+        class=&quot;paragraph_break&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;&lt;strong&gt;We
+        do not wish to be contacted by outsourcing firms and recruitment agencies.
+        Thank you.&lt;/strong&gt;&lt;/div&gt;&lt;div class=&quot;paragraph_break&quot;&gt;&lt;br
+        /&gt;&lt;/div&gt;&lt;div&gt;&lt;strong&gt;The Job&lt;/strong&gt;&lt;/div&gt;&lt;div&gt;We&#8217;re
+        looking for an experienced Ruby on Rails Developer to join our dev team.&lt;/div&gt;&lt;div
+        class=&quot;paragraph_break&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;&lt;strong&gt;Your
+        Skills&lt;/strong&gt;&lt;/div&gt;&lt;ul&gt;&lt;li&gt;Proficient with Ruby
+        (&amp;gt;= 1.9.3) on Rails (&amp;gt;=3.2)&lt;/li&gt;&lt;li&gt;Good knowledge
+        of Relational Databases i.e. Postgresql and SQL&lt;/li&gt;&lt;li&gt;Used to
+        TDD workflow : RSpec, JSLint, capybara, TravisCI&lt;/li&gt;&lt;li&gt;Experienced
+        with scaling applications: code optimization, caching with Varnish/Redis&lt;/li&gt;&lt;li&gt;Familiar
+        with Front-End techniques: Javascript/jQuery, HAML/SASS, liquid&lt;/li&gt;&lt;li&gt;EC2
+        / S3&lt;/li&gt;&lt;li&gt;Angular experience is a plus&lt;/li&gt;&lt;li&gt;Capistrano
+        or Puppet experience is a plus&lt;/li&gt;&lt;/ul&gt;&lt;div class=&quot;paragraph_break&quot;&gt;&lt;br
+        /&gt;&lt;/div&gt;&lt;div&gt;&lt;strong&gt;Your Responsibilities&lt;/strong&gt;&lt;/div&gt;&lt;ul&gt;&lt;li&gt;Build
+        new features that will be used by 120 000 stores&lt;/li&gt;&lt;li&gt;Performance
+        analysis and optimization on an application serving 17 million pages per month&lt;/li&gt;&lt;li&gt;Participate
+        in architecture and&amp;nbsp;functional&amp;nbsp;decisions&lt;/li&gt;&lt;li&gt;Integrate
+        our application with other services&lt;/li&gt;&lt;li&gt;A strong focus on
+        API and mobile&lt;/li&gt;&lt;/ul&gt;&lt;div class=&quot;paragraph_break&quot;&gt;&lt;br
+        /&gt;&lt;/div&gt;&lt;div&gt;&lt;strong&gt;Our Team&lt;/strong&gt;&lt;/div&gt;&lt;div&gt;You'll
+        join the dev team, 10 senior developers/designers/system guys with very different
+        backgrounds and countries of origin: US, Slovenia, Ukraine, Latvia, UK, France
+        and&amp;nbsp;Savoie.&lt;/div&gt;&lt;div class=&quot;paragraph_break&quot;&gt;&lt;br
+        /&gt;&lt;/div&gt;&lt;div&gt;Your opinion matters and your actions will have
+        a strong impact. Its all about continuous delivery, measuring, discussing,
+        sharing, hacking and building awesome things together.&lt;/div&gt;&lt;div
+        class=&quot;paragraph_break&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;&lt;strong&gt;The
+        Company&lt;/strong&gt;&lt;/div&gt;&lt;div&gt;Leadformance is a company founded
+        in 2007. We are a team of 40 located in Paris and Chamb&#233;ry (France),
+        with most of the dev team working remotely.&lt;/div&gt;&lt;div class=&quot;paragraph_break&quot;&gt;&lt;br
+        /&gt;&lt;/div&gt;&lt;div&gt;We are the european leader in Web to Store solutions
+        with 130 clients like L&#8217;Or&#233;al, Panasonic, LG, Fendi, Tag Heuer,
+        Orange, Darty, 1-2-3 Etam, Subaru, Optical Center, Quiksilver, Castorama,
+        Havas Voyages&#8230;&lt;/div&gt;&lt;div class=&quot;paragraph_break&quot;&gt;&lt;br
+        /&gt;&lt;/div&gt;&lt;div&gt;Our application is used by 120 000 stores in more
+        than 100 countries.&amp;nbsp;We serve around&amp;nbsp;17 million pages per
+        month.&lt;/div&gt;&lt;div class=&quot;paragraph_break&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;In
+        2010, we won the Paris ecommerce innovation award. In 2011, the Solocal group
+        (PagesJaunes) invested in the company. In 2014, Solocal acquired the company.&lt;/div&gt;&lt;div
+        class=&quot;paragraph_break&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;&lt;strong&gt;The
+        Location&lt;/strong&gt;&lt;/div&gt;&lt;div&gt;Even if we choose to collaborate
+        remotely in the beginning, you&#8217;ll probably decide to relocate once you
+        get the chance to visit the company headquarters!&lt;/div&gt;&lt;div class=&quot;paragraph_break&quot;&gt;&lt;br
+        /&gt;&lt;/div&gt;&lt;div&gt;Our Chamb&#233;ry office is located just several
+        miles away from the world&#8217;s best ski resorts (Courchevel, Meribel, Val
+        d&#8217;Is&#232;re...) and 15 minutes from the&amp;nbsp;&lt;a href=&quot;http://en.wikipedia.org/wiki/Lac_du_Bourget&quot;&gt;biggest
+        lake in France&lt;/a&gt;.&lt;/div&gt;&lt;div class=&quot;paragraph_break&quot;&gt;&lt;br
+        /&gt;&lt;/div&gt;&lt;div&gt;The area is well connected, with 2 international
+        airports (Lyon and Geneva) at 1h drive from the office.&lt;br /&gt;&lt;/div&gt;\n\n\n&lt;p&gt;&lt;strong&gt;To
+        apply:&lt;/strong&gt; Please apply here: &lt;a href=&quot;http://jobs.leadformance.com/apply/5j7o0l/Ruby-On-Rails-Developer-Remote-Contractors-Welcome.html&quot;&gt;http://jobs.leadformance.com/apply/5j7o0l/Ruby-On-Rails-Developer-Remote-Contractors-Welcome.html&lt;/a&gt;&lt;/p&gt;\n</description>\n
+        \     <pubDate>Wed, 05 Nov 2014 08:44:51 +0000</pubDate>\n      <guid>https://weworkremotely.com/jobs/1050</guid>\n
+        \     <link>https://weworkremotely.com/jobs/1050</link>\n    </item>\n    <item>\n
+        \     <title>Startup Foundry: Front end Software Engineer</title>\n      <description>\n\n&lt;p&gt;\n
+        \ &lt;strong&gt;Location:&lt;/strong&gt; Chicago, IL\n    &lt;br /&gt;&lt;strong&gt;URL:&lt;/strong&gt;
+        &lt;a href=&quot;http://www.startupfoundry.com&quot;&gt;http://www.startupfoundry.com&lt;/a&gt;\n&lt;/p&gt;\n\n&lt;div&gt;Do
+        you dream about pushing boundaries, using innovative technologies, and making
+        an impact through your work? Innovation is at the core of who we are and everything
+        we do. It&#8217;s how we design, code, and live.&lt;/div&gt;&lt;div class=&quot;paragraph_break&quot;&gt;&lt;br
+        /&gt;&lt;/div&gt;&lt;div&gt;Startup Foundry is private-equity funded. We are
+        not your typical startup and this is not your typical 9 to 5 job. We build
+        innovative companies that can transform industries. We do this by investing
+        in people.&amp;nbsp;Members of our team may become the future CEOs and CTOs
+        at the companies we build.&lt;/div&gt;&lt;div class=&quot;paragraph_break&quot;&gt;&lt;br
+        /&gt;&lt;/div&gt;&lt;div&gt;We are looking for brilliant, entrepreneurial
+        engineers who will help shape the future. We&#8217;re looking for people who
+        are tired of writing code for others and who want to be part of building entire
+        companies.&lt;/div&gt;&lt;div class=&quot;paragraph_break&quot;&gt;&lt;br
+        /&gt;&lt;/div&gt;&lt;div&gt;Every year, we identify 3 to 5 scalable and profitable
+        business models. We research, develop, and test those models. We form teams
+        to transform validated ideas into great businesses. Although a project team
+        typically includes no more than three or four full-time engineers, everyone
+        on the team receives options in any new company we launch.&lt;/div&gt;&lt;div
+        class=&quot;paragraph_break&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;Projects
+        are short (typically 60 to 120 days), so you&#8217;ll never get bored. Every
+        few months you&#8217;ll face a new challenge, learn about new technologies
+        and industries, and do things that make your heart beat faster (in a good
+        way).&lt;/div&gt;&lt;div class=&quot;paragraph_break&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;We
+        have a fast-paced, high-energy, passionate, fun and creative environment with
+        a sharp, motivated team.&lt;/div&gt;&lt;div class=&quot;paragraph_break&quot;&gt;&lt;br
+        /&gt;&lt;/div&gt;&lt;div&gt;We&#8217;re looking for engineers&amp;nbsp;who
+        are not&amp;nbsp;afraid to stick their neck out in pursuit of innovation and
+        creative solutions. People&amp;nbsp;who know what they want, who&amp;nbsp;execute
+        against all odds, are meticulous, detail oriented, and take pride in their
+        work.&amp;nbsp;Above all we&#8217;re looking for passionate people&amp;nbsp;who
+        enjoy what they do and who seek to live balanced and happy lives.&lt;/div&gt;&lt;div
+        class=&quot;paragraph_break&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;We
+        are not concerned with your education. We are concerned with your experience
+        and want to see your recent work.&lt;/div&gt;&lt;div class=&quot;paragraph_break&quot;&gt;&lt;br
+        /&gt;&lt;/div&gt;&lt;div&gt;This is not an adventure for the faint of heart.
+        We&#8217;re building a dream team.&lt;/div&gt;&lt;div class=&quot;paragraph_break&quot;&gt;&lt;br
+        /&gt;&lt;/div&gt;&lt;div&gt;If you&#8217;re excited by this opportunity, read
+        on&#8230;&lt;/div&gt;&lt;div class=&quot;paragraph_break&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;&lt;strong&gt;This
+        is you:&lt;/strong&gt;&lt;/div&gt;&lt;div class=&quot;paragraph_break&quot;&gt;&lt;br
+        /&gt;&lt;/div&gt;&lt;ul&gt;&lt;li&gt;Demonstrated design and UX sensibilities,
+        reflected in a portfolio of work.&lt;/li&gt;&lt;li&gt;You understand that
+        copywriting is design. You care about how things are phrased as much as you
+        care about how they look.&lt;/li&gt;&lt;li&gt;Exceptional proficiency using
+        HTML5/CSS/Javascript/AJAX and strong understanding of how to make them work
+        harmoniously for a great UX.&lt;/li&gt;&lt;li&gt;Experience working with web
+        development frameworks (Django, Rails).&lt;/li&gt;&lt;/ul&gt;&lt;div class=&quot;paragraph_break&quot;&gt;&lt;br
+        /&gt;&lt;/div&gt;&lt;div&gt;&lt;strong&gt;What you will do:&lt;/strong&gt;&lt;/div&gt;&lt;div
+        class=&quot;paragraph_break&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;ul&gt;&lt;li&gt;Help
+        make UI and UX decisions by taking ownership of what users see. You will have
+        a strong voice in how we develop, enhance and improve each&amp;nbsp;product
+        we build.&lt;/li&gt;&lt;li&gt;Build reusable CSS/JS frameworks to simplify
+        development and prototype experimental features.&lt;/li&gt;&lt;li&gt;Write
+        clean, elegant, practical, code. You will solve hard problems and make our
+        front-end fast, elegant, standards compliant and awesome.&lt;/li&gt;&lt;li&gt;Build
+        leading edge features using AJAX, widgets, social, mobile, and more.&lt;/li&gt;&lt;li&gt;Stay
+        up-to-date with technologies so you can suggest new coding practices, recommend
+        architecture changes and optimize scalability.&lt;/li&gt;&lt;li&gt;Get paid
+        to do what you love.&lt;/li&gt;&lt;/ul&gt;&lt;div class=&quot;paragraph_break&quot;&gt;&lt;br
+        /&gt;&lt;/div&gt;&lt;div&gt;&lt;strong&gt;These are the perks:&lt;/strong&gt;&lt;/div&gt;&lt;div
+        class=&quot;paragraph_break&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;ul&gt;&lt;li&gt;Competitive
+        salary, stock equity, health insurance, 401K.&lt;/li&gt;&lt;li&gt;Unlimited&amp;nbsp;paid
+        vacation.&lt;/li&gt;&lt;li&gt;You decide your setup. We love big displays&amp;nbsp;and
+        Apple computers.&lt;/li&gt;&lt;li&gt;Free books (regular, audio, ebooks) and
+        Kindle Paperwhite.&lt;/li&gt;&lt;li&gt;Noise-canceling headphones to help
+        you focus and listen to great music.&lt;/li&gt;&lt;li&gt;Wear whatever you
+        want. If you&#8217;re not embarrassed, neither are we.&lt;/li&gt;&lt;/ul&gt;&lt;div
+        class=&quot;paragraph_break&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;We&#8217;re
+        looking for incredibly smart, extraordinarily interesting people. We&#8217;re
+        highly protective of our culture and this can be a pretty tough place to get
+        into. When applying, please send links to things you&#8217;ve built.&lt;/div&gt;&lt;div
+        class=&quot;paragraph_break&quot;&gt;&lt;br /&gt;&lt;/div&gt;\n\n\n&lt;p&gt;&lt;strong&gt;To
+        apply:&lt;/strong&gt; To apply, send an email to &lt;a href=&quot;&amp;#109;&amp;#97;&amp;#105;&amp;#108;&amp;#116;&amp;#111;&amp;#58;%6a%6f%62%73@%73%74%61%72%74%75%70%66%6f%75%6e%64%72%79.%63%6f%6d&quot;&gt;jobs@startupfoundry.com&lt;/a&gt;&lt;/p&gt;\n</description>\n
+        \     <pubDate>Tue, 04 Nov 2014 22:11:00 +0000</pubDate>\n      <guid>https://weworkremotely.com/jobs/1049</guid>\n
+        \     <link>https://weworkremotely.com/jobs/1049</link>\n    </item>\n    <item>\n
+        \     <title>Startup Foundry: Back end Software Engineer</title>\n      <description>\n\n&lt;p&gt;\n
+        \ &lt;strong&gt;Location:&lt;/strong&gt; Chicago, IL\n    &lt;br /&gt;&lt;strong&gt;URL:&lt;/strong&gt;
+        &lt;a href=&quot;http://www.startupfoundry.com&quot;&gt;http://www.startupfoundry.com&lt;/a&gt;\n&lt;/p&gt;\n\n&lt;div&gt;Do
+        you dream about pushing boundaries, using innovative technologies, and making
+        an impact through your work? Innovation is at the core of who we are and everything
+        we do. It&#8217;s how we design, code, and live.&lt;/div&gt;&lt;div class=&quot;paragraph_break&quot;&gt;&lt;br
+        /&gt;&lt;/div&gt;&lt;div&gt;Startup Foundry is private-equity funded. We are
+        not your typical startup and this is not your typical 9 to 5 job. We build
+        innovative companies that can transform industries. We do this by investing
+        in people.&amp;nbsp;Members of our team may become the future CEOs and CTOs
+        at the companies we build.&lt;/div&gt;&lt;div class=&quot;paragraph_break&quot;&gt;&lt;br
+        /&gt;&lt;/div&gt;&lt;div&gt;We are looking for brilliant, entrepreneurial
+        engineers who will help shape the future. We&#8217;re looking for people who
+        are tired of writing code for others and who want to be part of building entire
+        companies.&lt;/div&gt;&lt;div class=&quot;paragraph_break&quot;&gt;&lt;br
+        /&gt;&lt;/div&gt;&lt;div&gt;Every year, we identify 3 to 5 scalable and profitable
+        business models. We research, develop, and test those models. We form teams
+        to transform validated ideas into great businesses. Although a project team
+        typically includes no more than three or four full-time engineers, everyone
+        on the team receives options in any new company we launch.&lt;/div&gt;&lt;div
+        class=&quot;paragraph_break&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;Projects
+        are short (typically 60 to 120 days), so you&#8217;ll never get bored. Every
+        few months you&#8217;ll face a new challenge, learn about new technologies
+        and industries, and do things that make your heart beat faster (in a good
+        way).&lt;/div&gt;&lt;div class=&quot;paragraph_break&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;We
+        have a fast-paced, high-energy, passionate, fun and creative environment with
+        a sharp, motivated team.&lt;/div&gt;&lt;div class=&quot;paragraph_break&quot;&gt;&lt;br
+        /&gt;&lt;/div&gt;&lt;div&gt;We&#8217;re looking for engineers&amp;nbsp;who
+        are not&amp;nbsp;afraid to stick their neck out in pursuit of innovation and
+        creative solutions. People&amp;nbsp;who know what they want, who&amp;nbsp;execute
+        against all odds, are meticulous, detail oriented, and take pride in their
+        work.&amp;nbsp;Above all we&#8217;re looking for passionate people&amp;nbsp;who
+        enjoy what they do and who seek to live balanced and happy lives.&lt;/div&gt;&lt;div
+        class=&quot;paragraph_break&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;We
+        are not concerned with your education. We are concerned with your experience
+        and want to see your recent work.&lt;/div&gt;&lt;div class=&quot;paragraph_break&quot;&gt;&lt;br
+        /&gt;&lt;/div&gt;&lt;div&gt;This is not an adventure for the faint of heart.
+        We&#8217;re building a dream team.&lt;/div&gt;&lt;div class=&quot;paragraph_break&quot;&gt;&lt;br
+        /&gt;&lt;/div&gt;&lt;div&gt;If you&#8217;re excited by this opportunity, read
+        on&#8230;&lt;/div&gt;&lt;div class=&quot;paragraph_break&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;&lt;strong&gt;This
+        is you:&lt;/strong&gt;&lt;/div&gt;&lt;div class=&quot;paragraph_break&quot;&gt;&lt;br
+        /&gt;&lt;/div&gt;&lt;ul&gt;&lt;li&gt;Experience with one of the mainstream
+        languages like Python, Ruby, Scala, or Java.&lt;/li&gt;&lt;li&gt;BS/MS/PhD
+        in Computer Science or related field (or equivalent work experience).&lt;/li&gt;&lt;li&gt;Deep
+        understanding of relational database schema design and performance tuning.&lt;/li&gt;&lt;/ul&gt;&lt;div
+        class=&quot;paragraph_break&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;&lt;strong&gt;What
+        you will do:&lt;/strong&gt;&lt;/div&gt;&lt;div class=&quot;paragraph_break&quot;&gt;&lt;br
+        /&gt;&lt;/div&gt;&lt;ul&gt;&lt;li&gt;Collaborate in making high-level, technology
+        decisions, with a keen eye towards innovation.&lt;/li&gt;&lt;li&gt;Write clean,
+        elegant, practical, code. We will look to you to solve hard problems and make
+        our code fast, elegant, and awesome.&lt;/li&gt;&lt;li&gt;Stay up-to-date with
+        technologies so you can suggest new coding practices, recommend architecture
+        changes and optimize scalability.&lt;/li&gt;&lt;li&gt;Prototype experimental
+        features.&lt;/li&gt;&lt;li&gt;Get paid to do what you love.&lt;/li&gt;&lt;/ul&gt;&lt;div
+        class=&quot;paragraph_break&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;&lt;strong&gt;These
+        are the perks:&lt;/strong&gt;&lt;/div&gt;&lt;div class=&quot;paragraph_break&quot;&gt;&lt;br
+        /&gt;&lt;/div&gt;&lt;ul&gt;&lt;li&gt;Competitive salary, stock equity, health
+        insurance, 401K.&lt;/li&gt;&lt;li&gt;Unlimited&amp;nbsp;paid vacation.&lt;/li&gt;&lt;li&gt;You
+        decide your setup. We love big displays&amp;nbsp;and Apple computers.&lt;/li&gt;&lt;li&gt;Free
+        books (regular, audio, ebooks) and Kindle Paperwhite.&lt;/li&gt;&lt;li&gt;Noise-canceling
+        headphones to help you focus and listen to great music.&lt;/li&gt;&lt;li&gt;Wear
+        whatever you want. If you&#8217;re not embarrassed, neither are we.&lt;/li&gt;&lt;/ul&gt;&lt;div
+        class=&quot;paragraph_break&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;We&#8217;re
+        looking for incredibly smart, extraordinarily interesting people. We&#8217;re
+        highly protective of our culture and this can be a pretty tough place to get
+        into. We are looking for the best engineers, no mater where he or she may
+        live. When applying, please send links to things you&#8217;ve built.&lt;/div&gt;&lt;div
+        class=&quot;paragraph_break&quot;&gt;&lt;br /&gt;&lt;/div&gt;\n\n\n&lt;p&gt;&lt;strong&gt;To
+        apply:&lt;/strong&gt; To apply, send an email to &lt;a href=&quot;&amp;#109;&amp;#97;&amp;#105;&amp;#108;&amp;#116;&amp;#111;&amp;#58;%6a%6f%62%73@%73%74%61%72%74%75%70%66%6f%75%6e%64%72%79.%63%6f%6d&quot;&gt;jobs@startupfoundry.com&lt;/a&gt;&lt;/p&gt;\n</description>\n
+        \     <pubDate>Tue, 04 Nov 2014 22:07:31 +0000</pubDate>\n      <guid>https://weworkremotely.com/jobs/1048</guid>\n
+        \     <link>https://weworkremotely.com/jobs/1048</link>\n    </item>\n    <item>\n
+        \     <title>Monetate: DevOps Engineer</title>\n      <description>&lt;img
+        alt=&quot;Resized_logo&quot; src=&quot;https://dge9rmgqjs8m1.cloudfront.net/wwr_s3/logos/0000/1674/logo.gif/resized_logo.png?r=3&quot;
+        /&gt;\n\n&lt;p&gt;\n  &lt;strong&gt;Location:&lt;/strong&gt; remotely\n    &lt;br
+        /&gt;&lt;strong&gt;URL:&lt;/strong&gt; &lt;a href=&quot;http://www.monetate.com&quot;&gt;www.monetate.com&lt;/a&gt;\n&lt;/p&gt;\n\n&lt;div&gt;At
+        Monetate, we write software that helps marketers identify and delight individual
+        customers at scale. We drive tens of billions of experiences each month crafted
+        to treat each person as an individual, rather than force them into the traditional
+        one-size-fits-all approach to marketing. &amp;nbsp;&lt;/div&gt;&lt;div class=&quot;paragraph_break&quot;&gt;&lt;br
+        /&gt;&lt;/div&gt;&lt;div&gt;&lt;strong&gt;What we believe&lt;/strong&gt;&lt;/div&gt;&lt;div
+        class=&quot;paragraph_break&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;We
+        are currently looking for a DevOps Engineer to join our growing Engineering
+        team. &amp;nbsp;Our engineering team is passionate about scale. We believe
+        in respect for each other and for our customers as a core value. We believe
+        that, as professionals, we should find our work fulfilling and it should contribute
+        towards our happiness in life. We believe that a small team with full technical
+        authority and responsibility is key to both happiness and project success.
+        We believe in working with the best and we commit to continual improvement.&lt;/div&gt;&lt;div
+        class=&quot;paragraph_break&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;&lt;strong&gt;Why
+        we need you:&lt;/strong&gt;&lt;br /&gt;&lt;/div&gt;&lt;ul&gt;&lt;li&gt;Help
+        us deliver software more reliably and efficiently&lt;/li&gt;&lt;li&gt;Design
+        and implement tools for reliable, zero-downtime, push-button releases&lt;/li&gt;&lt;li&gt;Measure,
+        control, and improve our build, test, deployment, and release processes&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;&lt;strong&gt;&lt;br
+        /&gt;&lt;/strong&gt;&lt;/div&gt;&lt;div&gt;&lt;strong&gt;What we're looking
+        for:&lt;/strong&gt;&lt;br /&gt;&lt;/div&gt;&lt;ul&gt;&lt;li&gt;A highly collaborative
+        technical leader&lt;/li&gt;&lt;li&gt;The ability and willingness to work on
+        many different parts of our systems (Infrastructure, Operating System, Database,
+        Application, Network)&lt;/li&gt;&lt;li&gt;A deep understanding of fundamental
+        Internet technologies&lt;/li&gt;&lt;li&gt;A strong understanding of operating
+        systems, networking, and software engineering fundamentals&lt;/li&gt;&lt;li&gt;Experience
+        using AWS or other virtualized infrastructure&lt;/li&gt;&lt;li&gt;Experience
+        using automation tools such as Ansible, Chef, or Puppet in production&lt;/li&gt;&lt;li&gt;Minimum
+        of five years administering Linux/Unix services in production&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;&lt;strong&gt;&lt;br
+        /&gt;&lt;/strong&gt;&lt;/div&gt;&lt;div&gt;&lt;strong&gt;Bonus Points for:&lt;/strong&gt;&lt;br
+        /&gt;&lt;/div&gt;&lt;ul&gt;&lt;li&gt;Experience using AWS services at scale&lt;/li&gt;&lt;li&gt;Experience
+        running high-volume Internet services&lt;/li&gt;&lt;li&gt;Contributions to
+        Open-Source Software&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;&amp;nbsp;&lt;/div&gt;&lt;div
+        class=&quot;paragraph_break&quot;&gt;&lt;br /&gt;&lt;/div&gt;\n\n\n&lt;p&gt;&lt;strong&gt;To
+        apply:&lt;/strong&gt; Please send a resume to &lt;a href=&quot;&amp;#109;&amp;#97;&amp;#105;&amp;#108;&amp;#116;&amp;#111;&amp;#58;%72%65%63%72%75%69%74%69%6e%67@%6d%6f%6e%65%74%61%74%65.%63%6f%6d&quot;&gt;recruiting@monetate.com&lt;/a&gt;&lt;/p&gt;\n</description>\n
+        \     <pubDate>Tue, 04 Nov 2014 21:08:13 +0000</pubDate>\n      <guid>https://weworkremotely.com/jobs/1047</guid>\n
+        \     <link>https://weworkremotely.com/jobs/1047</link>\n    </item>\n  </channel>\n</rss>\n"
+    http_version: 
+  recorded_at: Tue, 18 Nov 2014 04:29:42 GMT
+recorded_with: VCR 2.9.3

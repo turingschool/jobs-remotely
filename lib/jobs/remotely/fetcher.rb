@@ -1,6 +1,7 @@
 require 'bundler/setup'
 require 'feedjira'
 require 'pry'
+require 'faraday'
 require_relative 'job'
 
 module Jobs
@@ -13,9 +14,8 @@ module Jobs
       end
 
       def fetch_url(url, options = {})
-        parser = Feedjira::Feed.fetch_and_parse([url])
-        entries = parser.values.first.entries
-        binding.pry
+        content = Faraday.get(url).body
+        entries = Feedjira::Feed.parse(content).entries
         build_jobs(entries, options)
       end
 
