@@ -13,8 +13,8 @@ module Jobs
       end
 
       def fetch_url(url, options = {})
-        parser = Feedjira::Feed.fetch_and_parse(urls, options = {})
-        build_jobs(parser, options)
+        parser = Feedjira::Feed.fetch_and_parse([url], options = {})
+        build_jobs(parser.first, options)
       end
 
       def build_jobs(parser, options)
