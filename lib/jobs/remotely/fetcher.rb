@@ -8,17 +8,19 @@ module Jobs
     class Fetcher
       def fetch_file(path, options = {})
         content = File.read(path)
-        parser = Feedjira::Feed.parse(content)
-        build_jobs(parser, options)
+        entries = Feedjira::Feed.parse(content).entries
+        build_jobs(entries, options)
       end
 
       def fetch_url(url, options = {})
-        parser = Feedjira::Feed.fetch_and_parse([url], options = {})
-        build_jobs(parser.first, options)
+        parser = Feedjira::Feed.fetch_and_parse([url])
+        entries = parser.values.first.entries
+        binding.pry
+        build_jobs(entries, options)
       end
 
-      def build_jobs(parser, options)
-        jobs = parser.entries.collect{|entry| Job.new(entry)}
+      def build_jobs(entries, options)
+        jobs = entries.collect{|entry| Job.new(entry)}
 
         if options[:since]
           jobs = jobs.select{|entry| entry.posted_on >= options[:since]}
