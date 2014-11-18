@@ -1,12 +1,13 @@
 module Jobs
   module Remotely
     class Job
-      attr_accessor :title, :description, :source_url
+      attr_accessor :title, :description, :source_url, :posted_on
 
-      def initialize(parser)
-        @title = parser.title
-        @description = parser.summary
-        @source_url = parser.url
+      def initialize(entry)
+        @title       = entry.title
+        @description = entry.summary
+        @source_url  = entry.url
+        @posted_on   = entry.published.to_date
       end
     end
   end
