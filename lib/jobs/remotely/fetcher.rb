@@ -9,13 +9,22 @@ module Jobs
       def fetch_file(path, options = {})
         content = File.read(path)
         parser = Feedjira::Feed.parse(content)
-        entries = parser.entries.collect{|entry| Job.new(entry)}
+        build_jobs(parser, options)
+      end
+
+      def fetch_url(url, options = {})
+        parser = Feedjira::Feed.fetch_and_parse(urls, options = {})
+        build_jobs(parser, options)
+      end
+
+      def build_jobs(parser, options)
+        jobs = parser.entries.collect{|entry| Job.new(entry)}
 
         if options[:since]
-          entries = entries.select{|entry| entry.posted_on >= options[:since]}
+          jobs = jobs.select{|entry| entry.posted_on >= options[:since]}
         end
 
-        return entries
+        return jobs
       end
     end
   end
