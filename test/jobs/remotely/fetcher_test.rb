@@ -31,4 +31,25 @@ class FetcherTest < Minitest::Test
       assert job.posted_on >= start_on
     end
   end
+
+  def test_it_fetches_jobs_from_a_url
+    skip
+    fetcher = Jobs::Remotely::Fetcher.new
+    jobs = fetcher.fetch_url('http://someurl.rss')
+    sample = jobs.first
+    assert_equal "Kaleo Software: Senior Software Engineer", sample.title
+    assert sample.description.include?("looking for a Senior Software Engineer")
+    assert_equal "https://weworkremotely.com/jobs/1080", sample.source_url
+  end
+
+  def test_it_fetches_jobs_from_a_url_scoped_by_start_date
+    skip
+    fetcher = Jobs::Remotely::Fetcher.new
+    start_on = Date.parse("2014-11-14")
+    jobs = fetcher.fetch_url('http://someurl.rss', :since => start_on)
+    assert_equal 5, jobs.count
+    jobs.each do |job|
+      assert job.posted_on >= start_on
+    end
+  end
 end
