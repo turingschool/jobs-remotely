@@ -25,7 +25,7 @@ true
 [#<Jobs::Remotely::Job ...>, #<Jobs::Remotely::Job ...>]
 ```
 
-Or, scoped to only those jobs newere than a certain date:
+Or, scoped to only those jobs newer than a certain date:
 
 ```
 > require 'jobs-remotely'
