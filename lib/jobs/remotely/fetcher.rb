@@ -1,6 +1,4 @@
-require 'bundler/setup'
 require 'feedjira'
-require 'pry'
 require 'faraday'
 require_relative 'job'
 
