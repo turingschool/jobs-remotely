@@ -14,6 +14,36 @@ And then execute:
 
 ## Usage
 
+### Fetching a Single Job Feed
+
+To fetch the jobs for a single category:
+
+```ruby
+require 'jobs-remotely'
+fetcher = Jobs::Remotely::Fetcher.new
+fetcher.fetch_url Jobs::Remotely::Feed.for(:programming)
+```
+
+Or, to fetch the all jobs grouped by category:
+
+```ruby
+require 'jobs-remotely'
+fetcher = Jobs::Remotely::Fetcher.new
+Jobs::Remotely::Feed.all.collect do |category, url|
+  [category, fetcher.fetch_url(url)]
+end
+```
+
+Or a single set of all jobs:
+
+```ruby
+require 'jobs-remotely'
+fetcher = Jobs::Remotely::Fetcher.new
+Jobs::Remotely::Feed.all.collect do |category, url|
+  fetcher.fetch_url(url)
+end.flatten
+```
+
 ### Parsing RSS from a File
 
 ```
@@ -25,7 +55,7 @@ true
 [#<Jobs::Remotely::Job ...>, #<Jobs::Remotely::Job ...>]
 ```
 
-Or, scoped to only those jobs newere than a certain date:
+Or, scoped to only those jobs newer than a certain date:
 
 ```
 > require 'jobs-remotely'
