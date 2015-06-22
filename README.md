@@ -6,7 +6,7 @@ This library makes it easy to pull job listings from WeWorkRemotely.com
 
 Add this line to your application's Gemfile:
 
-    gem 'jobs-remotely'
+    gem 'jobs-remotely, git: 'https://github.com/turingschool/jobs-remotely'
 
 And then execute:
 
