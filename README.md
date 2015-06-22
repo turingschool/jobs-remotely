@@ -6,7 +6,7 @@ This library makes it easy to pull job listings from WeWorkRemotely.com
 
 Add this line to your application's Gemfile:
 
-    gem 'jobs-remotely'
+    gem 'jobs-remotely, git: 'https://github.com/turingschool/jobs-remotely'
 
 And then execute:
 
@@ -19,7 +19,7 @@ And then execute:
 To fetch the jobs for a single category:
 
 ```ruby
-require 'jobs-remotely'
+require 'jobs/remotely'
 fetcher = Jobs::Remotely::Fetcher.new
 fetcher.fetch_url Jobs::Remotely::Feed.for(:programming)
 ```
@@ -27,7 +27,7 @@ fetcher.fetch_url Jobs::Remotely::Feed.for(:programming)
 Or, to fetch the all jobs grouped by category:
 
 ```ruby
-require 'jobs-remotely'
+require 'jobs/remotely'
 fetcher = Jobs::Remotely::Fetcher.new
 Jobs::Remotely::Feed.all.collect do |category, url|
   [category, fetcher.fetch_url(url)]
@@ -37,7 +37,7 @@ end
 Or a single set of all jobs:
 
 ```ruby
-require 'jobs-remotely'
+require 'jobs/remotely'
 fetcher = Jobs::Remotely::Fetcher.new
 Jobs::Remotely::Feed.all.collect do |category, url|
   fetcher.fetch_url(url)
@@ -47,7 +47,7 @@ end.flatten
 ### Parsing RSS from a File
 
 ```
-> require 'jobs-remotely'
+> require 'jobs/remotely'
 true
 > fetcher = Jobs::Remotely::Fetcher.new
 #<Jobs::Remotely::Fetcher ...>
@@ -58,7 +58,7 @@ true
 Or, scoped to only those jobs newer than a certain date:
 
 ```
-> require 'jobs-remotely'
+> require 'jobs/remotely'
 true
 > fetcher = Jobs::Remotely::Fetcher.new
 #<Jobs::Remotely::Fetcher ...>
